@@ -1,24 +1,4 @@
 
-```
-        .o.       ooooo ooooooooo.    .oooooo..o  .oooooo..o 
-       .888.      '888' '888   'Y88. d8P'    'Y8 d8P'    'Y8 
-      .8:888.      888   888   .d88' Y88bo.      Y88bo.      
-     .8' '888.     888   888ooo88P'   ':Y8888o.   ':Y8888o.  
-    .88ooo8888.    888   888'88b.         ':Y88b      ':Y88b 
-   .8'     '888.   888   888  '88b.  oo     .d8P oo     .d8P 
-  o88o     o8888o o888o o888o  o888o 8::88888P'  8::88888P'  
-                                                             
-            Ab Initio Random Structure Searching           
-            Chris J. Pickard   (cjp20@cam.ac.uk)             
-                                                            
-                  Copyright (c) 2005-2019
-
-```
-
-- [Installation guide](/installation)
-- [AIRSS examples](/examples)
-
-
 Introduction
 ============
 
@@ -30,21 +10,31 @@ AIRSS has been used in a number of landmark studies in structure prediction, fro
 
 The approach naturally extends to the prediction of clusters/molecules, defects in solids[6], interfaces and surfaces (which can be thought of as interfaces with vacuum)[7].
 
-[1] C.J. Pickard and R.J. Needs, Phys. Rev. Lett., 97, 045504 (2006)
-[2] C.J. Pickard and R.J. Needs, J. Phys.: Condens. Matter 23, 053201 (2011)
-[3] C.J. Pickard and R.J. Needs, Nature Physics, 3, 473 (2007)
-[4] C.J. Pickard and R.J. Needs, Nature Materials, 9, 624 (2010)
-[5] C.J. Pickard and R.J. Needs, Nature Materials, 7, 775 (2008)
-[6] A.J. Morris, C.J. Pickard and R.J. Needs, Phys. Rev. B, 78, 184102 (2008)
-[7] G. Schusteritsch and C.J. Pickard, Phys. Rev. B, 90, 035424 (2014)
+[1] C.J. Pickard and R.J. Needs, Phys. Rev. Lett., 97, 045504 (2006)  
+[2] C.J. Pickard and R.J. Needs, J. Phys.: Condens. Matter 23, 053201 (2011)  
+[3] C.J. Pickard and R.J. Needs, Nature Physics, 3, 473 (2007)  
+[4] C.J. Pickard and R.J. Needs, Nature Materials, 9, 624 (2010)  
+[5] C.J. Pickard and R.J. Needs, Nature Materials, 7, 775 (2008)  
+[6] A.J. Morris, C.J. Pickard and R.J. Needs, Phys. Rev. B, 78, 184102 (2008)  
+[7] G. Schusteritsch and C.J. Pickard, Phys. Rev. B, 90, 035424 (2014)  
+
+Table of contents
+=================
+
+- [Default installation guide](#quick-installation)
+- [Custom installation guide](/installation)
+- [External packages](#packages)
+
+- [AIRSS examples](/examples)
+- [Buildcell glossary](/buildcell-glossary)
 
 Licence and citation
 ====================
 
 The AIRSS package is released under the GPL 2.0 licence. See the LICENCE file for more details. You are not required to, but you might consider citing references [1] and [2] above in any work that makes use of the AIRSS package.
 
-Installation
-============
+Default installation
+====================
 
 Execute the following to perform a default installation:
 
