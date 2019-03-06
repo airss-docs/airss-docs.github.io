@@ -61,8 +61,8 @@ The installation can be tested:
 make check
 ```
 
-**It is strongly recommended that gcc and gfortran version 5 and above are used to build the airss
-utilities. Other compiler families (such as ifort) are not supported.**
+> It is strongly recommended that gcc and gfortran version 5 and above are used to build the airss
+utilities. Other compiler families (such as ifort) are not supported.
 
 Documentation
 =============
