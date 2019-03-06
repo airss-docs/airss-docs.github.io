@@ -19,6 +19,7 @@ paginate_path: /page:num/
 timezone: 
 
 plugins:
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
