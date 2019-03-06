@@ -10,22 +10,20 @@ AIRSS has been used in a number of landmark studies in structure prediction, fro
 
 The approach naturally extends to the prediction of clusters/molecules, defects in solids,[^6] interfaces and surfaces (which can be thought of as interfaces with vacuum).[^7]
 
+### Licence and citation
+
+The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing the following references in any work that makes use of the AIRSS package:
+
+1. C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
+2. C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
+
 Table of contents
 =================
 
-- [Quick installation guide](#quick-installation)
-- [Custom installation guide](/installation)
-- [External packages](#packages)
+- [Custom installation](/installation)
+- [External packages](/packages)
+- [Glossary](/glossary)
 - [AIRSS examples](/examples)
-- [Buildcell glossary](/buildcell-glossary)
-
-Licence and citation
-====================
-
-The AIRSS package is released under the GPL 2.0 licence. See the LICENCE file for more details. You are not required to, but you might consider citing the following references in any work that makes use of the AIRSS package:
-
-* C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
-* C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
 
 Quick installation
 ==================
@@ -50,15 +48,12 @@ utilities. Other compiler families (such as ifort) are not supported.
 Documentation
 =============
 
-The AIRSS package is documented through a growing list of worked examples. Chapter 1 of the examples uses the provided pair potential code (`pp3`). Please head to the README in airss/examples
+The AIRSS package is documented through a growing list of worked examples. Chapter 1 of the examples uses the provided pair potential code (`pp3`). Please head to the README in airss/examples.
 
 Castep and AIRSS
 ================
 
-The AIRSS package is tightly integrated with the Castep first principles total
-energy code. However, it is relatively straightforward to modify the scripts to
-use alternative codes to obtain the core functionality. xxx_relax scripts for vasp,
-pp3, gulp, psi4, and lammps are provided and integrated with the airss.pl script.
+The AIRSS package is tightly integrated with the Castep first principles total energy code. However, it is relatively straightforward to modify the scripts to use alternative codes to obtain the core functionality. xxx_relax scripts for vasp, pp3, gulp, psi4, and lammps are provided and integrated with the airss.pl script.
 
 External utilities
 ==================
