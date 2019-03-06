@@ -1,7 +1,7 @@
 AIRSS Manual
 ============
 
-## Introduction
+### Buildcell
 
 The construction of reasonable, or _sensible_, random structures is central to Ab Initio Random Structure Searching (AIRSS). The Fortran `buildcell` tool is provided in the `airss` package for this purpose. It can build structures from scratch, or modify structures specified using the Castep `.cell` format. The random structures generated  are output in the Castep `.cell` format.
 
@@ -98,10 +98,67 @@ Show bond angles, length distributions
 
 ### Directives
 
-| Directive | Description |
-| :======== | :========== |
-| `#ABFIX`      |         |
-| `#ACONS`      |         |
-| `#ADJGEN`     |         |
-| `#ANGAMP`     |         |
-| `#AUTOSLACK`  |         |
+Directive     | Description
+:========     | :==========
+`#ABFIX`      |        
+`#ACONS`      |        
+`#ADJGEN`     |        
+`#ANGAMP`     |        
+`#AUTOSLACK`  |        
+`#BREAKAMP`   |
+`CELLADAPT`   |
+`CELLAMP`     |
+`CELLCON`     |
+`CFIX`        |
+`CLUSTER`     |
+`COMPACT`     |
+`CONS`        |
+`COORD`       |
+`CYLINDER`    |
+`FIX`         |
+`FLIP`        |
+`FOCUS`       |
+`MAXBANGLE`   |
+`MAXTIME`     |
+`MINAMP`      |
+`MINBANGLE`   |
+`MINSEP`      |
+`MOLECULES`   |
+`NATOM`       |
+`NFORM`       |
+`NOCOMPACT`   |
+`NOPUSH`      |
+`OCTET`       |
+`#OVERLAP`    |
+`#PERMFRAC`   |
+`#PERMUTE`    |
+`#POSAMP`     |
+`#RAD`        |
+`#RASH`       |
+`#RASH_ANGAMP`|
+`#RASH_POSAMP`|
+`#REMOVE`     |
+`#SGRANK`     |
+`#SHIFT`      |
+`#SLAB`       |
+`#SLACK`      |
+`#SPECIES`    |
+`#SPHERE`     |
+`#SPIN`       |
+`#SUPERCELL`  |
+`#SURFACE`    |
+`#SYMM`       |
+`#SYMMNO`     |
+`#SYMMOPS`    |
+`#SYMMORPHIC` |
+`#SYSTEM`     |
+`#TARGVOL`    |
+`#THREE`      |
+`#TIGHT`      |
+`#VACANCIES`  |
+`#VACUUM`     |
+`#VARVOL`     |
+`#WIDTH`      |
+`#XAMP`       |
+`#YAMP`       |
+`#ZAMP`       |
