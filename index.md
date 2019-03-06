@@ -57,10 +57,10 @@ utilities. Other compiler families (such as `ifort`) are not supported.
 
 If you encounter problems with the installation, you may need to troubleshoot your environment. Head over to the [custom installation page](/installation) for tips to help you diagnose problems.
 
-External Utilities
-==================
+Utilities
+=========
 
-The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. [This guide](/utilities) provides details on how to make sure everything you need is available to AIRSS.
+The AIRSS package makes use of a number of internal and external utilities, scripts, and codes. Some of these are available from package managers, while others should be built locally. [This guide](/utilities) provides details on how to make sure everything you need is available to AIRSS.
 
 AIRSS Examples
 ==============
