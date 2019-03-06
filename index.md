@@ -1,5 +1,7 @@
 ---
 title: "AIRSS Documentation"
+layout: single
+classes: wide
 ---
 
 
