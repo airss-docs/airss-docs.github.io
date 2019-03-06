@@ -1,5 +1,5 @@
-List of Examples
-================
+AIRSS Examples
+==============
 
 [**1.01**](#example-101): Lennard–Jones solid with 8 atoms  
 [**1.02**](#example-102): Lennard–Jones cluster with 13 atoms  
