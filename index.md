@@ -20,10 +20,10 @@ The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/li
 Quick installation
 ==================
 
-Download the latest AIRSS release from the [Cambridge Materials Theory Group website](https://www.mtg.msm.cam.ac.uk/Codes/AIRSS). Extract `airss-0.9.1.tgz` and navigate into the `airss-0.9.1/` directory:
+Download the latest AIRSS release from the [Cambridge Materials Theory Group website](https://www.mtg.msm.cam.ac.uk/Codes/AIRSS). Assuming AIRSS v0.9.1, extract `airss-0.9.1.tgz` and navigate into the `airss-0.9.1/` directory:
 
 ```console
-$ tar -xvf airss-x.x.x.tgz
+$ tar -xvf airss-0.9.1.tgz
 
 ./._airss-0.9.1
 airss-0.9.1/
@@ -54,19 +54,24 @@ The output will tell you whether the essential, recommended, and optional compon
 > **Note:** It is strongly recommended that `gcc` and `gfortran` version 5 and above are used to build the AIRSS
 utilities. Other compiler families (such as `ifort`) are not supported.
 
-Detailed guides
-===============
+[Custom installation](/installation)
+====================================
 
-[Custom installation](/installation)  
 Head to this page if the quick installation doesn't work.
 
-[External packages](/packages)  
+[External packages](/packages)
+==============================
+
 The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. This guide provides details on how to make sure everything you need is available.
 
-[AIRSS examples](/examples)  
+[AIRSS examples](/examples)
+===========================
+
 The AIRSS package is documented through a growing list of worked examples. Chapter 1 of the examples uses the included pair potential code (`pp3`), and does not require any DFT package to be installed. Chapter 2 uses the Castep first principles total energy code.
 
-[Glossary](/glossary)  
+[Glossary](/glossary)
+=====================
+
 Use this 
 
 References
