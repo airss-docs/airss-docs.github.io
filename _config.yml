@@ -2,14 +2,12 @@ title: AIRSS Documentation
 
 email:
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  ...
 baseurl: /airss-docs.github.io
 url: https://mmistakes.github.io
 twitter_username: mmistakes
 github_username: mmistakes
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: contrast
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
