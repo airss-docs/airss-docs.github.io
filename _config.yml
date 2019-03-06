@@ -1,4 +1,9 @@
 title: AIRSS Documentation
+
+plugins:
+  - jekyll-remote-theme
+  
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
+
 exclude:
   - assets/javascript/anchor-js
