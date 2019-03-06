@@ -14,11 +14,11 @@ The AIRSS package is tightly integrated with the Castep first principles total e
 
 The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing the following references in any work that makes use of the AIRSS package:
 
-> C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
-> C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
+1. C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
+2. C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
 
-Quick installation
-==================
+Installation
+============
 
 Download the latest AIRSS release from the [Cambridge Materials Theory Group website](https://www.mtg.msm.cam.ac.uk/Codes/AIRSS). Assuming AIRSS v0.9.1, extract `airss-0.9.1.tgz` and navigate into the `airss-0.9.1/` directory:
 
@@ -54,25 +54,22 @@ The output will tell you whether the essential, recommended, and optional compon
 > **Note:** It is strongly recommended that `gcc` and `gfortran` version 5 and above are used to build the AIRSS
 utilities. Other compiler families (such as `ifort`) are not supported.
 
-[Custom installation](/installation)
-====================================
+If you encounter problems with the installation, you may need to troubleshoot your environment. Head over to the [custom installation page](/installation) for tips to help you diagnose problems.
 
-Head to this page if the quick installation doesn't work.
+External Packages
+=================
 
-[External packages](/packages)
-==============================
+The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. [This guide](/external) provides details on how to make sure everything you need is available to AIRSS.
 
-The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. This guide provides details on how to make sure everything you need is available.
+AIRSS Examples
+==============
 
-[AIRSS examples](/examples)
-===========================
+The AIRSS package is documented through a [growing list of worked examples](/examples). The first set of examples uses the included pair potential code (`pp3`), and does not require any DFT package to be installed. Later examples show how external DFT packages, such as the Castep first principles total energy code, can be incorporated into searches.
 
-The AIRSS package is documented through a growing list of worked examples. Chapter 1 of the examples uses the included pair potential code (`pp3`), and does not require any DFT package to be installed. Chapter 2 uses the Castep first principles total energy code.
+AIRSS Manual
+============
 
-[Glossary](/glossary)
-=====================
-
-Use this 
+Once you have worked through the AIRSS Examples, head over to the [AIRSS Manual](/manual) to learn how to set up your own advanced calculations.
 
 References
 ==========
