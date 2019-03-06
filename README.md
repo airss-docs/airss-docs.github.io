@@ -1,4 +1,7 @@
-#AIRSS Examples
+---
+title: AIRSS Examples
+layout: default
+---
 
 ## Table of Contents
 
