@@ -40,16 +40,16 @@ utilities. Other compiler families (such as ifort) are not supported.
 Detailed guides
 ===============
 
-##[Custom installation](/installation)
+[Custom installation](/installation)  
 Head to this page if the quick installation doesn't work.
 
-##[External packages](/packages)
+[External packages](/packages)  
 The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. This guide provides details on how to make sure everything you need is available.
 
-##[AIRSS examples](/examples)
+[AIRSS examples](/examples)  
 The AIRSS package is documented through a growing list of worked examples. Chapter 1 of the examples uses the included pair potential code (`pp3`), and does not require any DFT package to be installed. Chapter 2 uses the Castep first principles total energy code.
 
-##[Glossary](/glossary)
+[Glossary](/glossary)  
 Use this 
 
 Castep and AIRSS
