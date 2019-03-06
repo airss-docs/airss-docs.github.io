@@ -10,7 +10,7 @@ AIRSS has been used in a number of landmark studies in structure prediction, fro
 
 The AIRSS package is tightly integrated with the Castep first principles total energy code. However, it is relatively straightforward to modify the scripts to use alternative codes to obtain the core functionality. `xxx_relax` scripts for vasp, pp3, gulp, psi4, and lammps are provided and integrated with the `airss.pl` script.
 
-Licence and citation
+Licence and Citation
 ====================
 
 The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing the following references in any work that makes use of the AIRSS package:
@@ -57,10 +57,10 @@ utilities. Other compiler families (such as `ifort`) are not supported.
 
 If you encounter problems with the installation, you may need to troubleshoot your environment. Head over to the [custom installation page](/installation) for tips to help you diagnose problems.
 
-External Packages
-=================
+External Utilities
+==================
 
-The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. [This guide](/packages) provides details on how to make sure everything you need is available to AIRSS.
+The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. [This guide](/utilities) provides details on how to make sure everything you need is available to AIRSS.
 
 AIRSS Examples
 ==============
