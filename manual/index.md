@@ -88,7 +88,7 @@ END
 
 ### Cell size and shape
 
-Show bond angles, length distributions
+Show bond angles, length distributions.
 
 ### Cell content
 
@@ -98,67 +98,67 @@ Show bond angles, length distributions
 
 ### Directives
 
-Directive     | Description
-:========     | :==========
-`#ABFIX`      |        
-`#ACONS`      |        
-`#ADJGEN`     |        
-`#ANGAMP`     |        
-`#AUTOSLACK`  |        
-`#BREAKAMP`   |
-`CELLADAPT`   |
-`CELLAMP`     |
-`CELLCON`     |
-`CFIX`        |
-`CLUSTER`     |
-`COMPACT`     |
-`CONS`        |
-`COORD`       |
-`CYLINDER`    |
-`FIX`         |
-`FLIP`        |
-`FOCUS`       |
-`MAXBANGLE`   |
-`MAXTIME`     |
-`MINAMP`      |
-`MINBANGLE`   |
-`MINSEP`      |
-`MOLECULES`   |
-`NATOM`       |
-`NFORM`       |
-`NOCOMPACT`   |
-`NOPUSH`      |
-`OCTET`       |
-`#OVERLAP`    |
-`#PERMFRAC`   |
-`#PERMUTE`    |
-`#POSAMP`     |
-`#RAD`        |
-`#RASH`       |
-`#RASH_ANGAMP`|
-`#RASH_POSAMP`|
-`#REMOVE`     |
-`#SGRANK`     |
-`#SHIFT`      |
-`#SLAB`       |
-`#SLACK`      |
-`#SPECIES`    |
-`#SPHERE`     |
-`#SPIN`       |
-`#SUPERCELL`  |
-`#SURFACE`    |
-`#SYMM`       |
-`#SYMMNO`     |
-`#SYMMOPS`    |
-`#SYMMORPHIC` |
-`#SYSTEM`     |
-`#TARGVOL`    |
-`#THREE`      |
-`#TIGHT`      |
-`#VACANCIES`  |
-`#VACUUM`     |
-`#VARVOL`     |
-`#WIDTH`      |
-`#XAMP`       |
-`#YAMP`       |
-`#ZAMP`       |
+**Directive**     | **Description**
+:============     | :==============
+`#ABFIX`          | Fix the a- and b-axis. Should be placed in the `LATTICE_CART`/`LATTICE_ABC` block. > Default : false
+`#ACONS`          |        
+`#ADJGEN`         |        
+`#ANGAMP`         |        
+`#AUTOSLACK`      |        
+`#BREAKAMP`       |
+`CELLADAPT`       |
+`CELLAMP`         |
+`CELLCON`         |
+`CFIX`            |
+`CLUSTER`         |
+`COMPACT`         |
+`CONS`            |
+`COORD`           |
+`CYLINDER`        |
+`FIX`             |
+`FLIP`            |
+`FOCUS`           |
+`MAXBANGLE`       |
+`MAXTIME`         |
+`MINAMP`          |
+`MINBANGLE`       |
+`MINSEP`          |
+`MOLECULES`       |
+`NATOM`           |
+`NFORM`           |
+`NOCOMPACT`       |
+`NOPUSH`          |
+`OCTET`           |
+`#OVERLAP`        |
+`#PERMFRAC`       |
+`#PERMUTE`        |
+`#POSAMP`         |
+`#RAD`            |
+`#RASH`           |
+`#RASH_ANGAMP`    |
+`#RASH_POSAMP`    |
+`#REMOVE`         |
+`#SGRANK`         |
+`#SHIFT`          |
+`#SLAB`           |
+`#SLACK`          |
+`#SPECIES`        |
+`#SPHERE`         |
+`#SPIN`           |
+`#SUPERCELL`      |
+`#SURFACE`        |
+`#SYMM`           |
+`#SYMMNO`         |
+`#SYMMOPS`        |
+`#SYMMORPHIC`     |
+`#SYSTEM`         |
+`#TARGVOL`        |
+`#THREE`          |
+`#TIGHT`          |
+`#VACANCIES`      |
+`#VACUUM`         |
+`#VARVOL`         |
+`#WIDTH`          |
+`#XAMP`           |
+`#YAMP`           |
+`#ZAMP`           |
