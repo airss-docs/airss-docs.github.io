@@ -27,8 +27,8 @@ The AIRSS package is released under the GPL 2.0 licence. See the LICENCE file fo
 * C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
 * C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
 
-Quick installation{#quick-installation}
-=======================================
+Quick installation
+==================
 
 Execute the following to perform a default installation:
 
