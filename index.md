@@ -10,7 +10,8 @@ AIRSS has been used in a number of landmark studies in structure prediction, fro
 
 The AIRSS package is tightly integrated with the Castep first principles total energy code. However, it is relatively straightforward to modify the scripts to use alternative codes to obtain the core functionality. `xxx_relax` scripts for vasp, pp3, gulp, psi4, and lammps are provided and integrated with the `airss.pl` script.
 
-### Licence and citation
+Licence and citation
+====================
 
 The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing the following references in any work that makes use of the AIRSS package:
 
@@ -59,12 +60,12 @@ If you encounter problems with the installation, you may need to troubleshoot yo
 External Packages
 =================
 
-The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. [This guide](/external) provides details on how to make sure everything you need is available to AIRSS.
+The AIRSS package makes use of a number of external utilities. Some of them are available from package managers, while others should be built locally. [This guide](/packages) provides details on how to make sure everything you need is available to AIRSS.
 
 AIRSS Examples
 ==============
 
-The AIRSS package is documented through a [growing list of worked examples](/examples). The first set of examples uses the included pair potential code (`pp3`), and does not require any DFT package to be installed. Later examples show how external DFT packages, such as the Castep first principles total energy code, can be incorporated into searches.
+The AIRSS package is documented through a [growing list of worked examples](/examples). The first set of examples uses the built-in pair potential code, and does not require any DFT package to be installed. Later examples show how external packages, such as the Castep first principles total energy code, can be incorporated into searches.
 
 AIRSS Manual
 ============
@@ -76,8 +77,8 @@ References
 
 [^1]: C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
 [^2]: C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
-[^3]: C.J. Pickard and R.J. Needs, [Nat. Phys., **3**, 473 (2007)]()  
-[^4]: C.J. Pickard and R.J. Needs, [Nat. Mater., **9**, 624 (2010)]()  
-[^5]: C.J. Pickard and R.J. Needs, [Nat. Mater., **7**, 775 (2008)]()  
-[^6]: A.J. Morris, C.J. Pickard and R.J. Needs, [Phys. Rev. B, **78**, 184102 (2008)]()  
-[^7]: G. Schusteritsch and C.J. Pickard, [Phys. Rev. B, **90**, 035424 (2014)]()  
+[^3]: C.J. Pickard and R.J. Needs, [Nat. Phys., **3**, 473 (2007)](https://doi.org/10.1038/nphys625)  
+[^4]: C.J. Pickard and R.J. Needs, [Nat. Mater., **9**, 624 (2010)](https://doi.org/10.1038/nmat2796)  
+[^5]: C.J. Pickard and R.J. Needs, [Nat. Mater., **7**, 775 (2008)](https://doi.org/10.1038/nmat2261)  
+[^6]: A.J. Morris, C.J. Pickard and R.J. Needs, [Phys. Rev. B, **78**, 184102 (2008)](https://doi.org/10.1103/PhysRevB.78.184102)  
+[^7]: G. Schusteritsch and C.J. Pickard, [Phys. Rev. B, **90**, 035424 (2014)](https://doi.org/10.1103/PhysRevB.90.035424)  
