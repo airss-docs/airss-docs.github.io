@@ -1,4 +1,5 @@
-## Contents
+List of Examples
+================
 
 [**1.01**](#example-101): Lennard–Jones solid with 8 atoms  
 [**1.02**](#example-102): Lennard–Jones cluster with 13 atoms  
@@ -26,7 +27,10 @@
 [**3.07**](#example-307): Gulp symmetry constrained search for CH₄ molecular crystals, Tersoff potential  
 [**4.01**](#example-401): VASP free search for 2 atoms of carbon at 100 GPa  
 
-## Example 1.01
+Example 1.01
+============
+Lennard–Jones solid with 8 atoms
+--------------------------------
 
 In this example we will use random searching to find the ground state of a Lennard–Jones solid.
 
@@ -131,7 +135,8 @@ Al-91855-9500-15       0.00     8.465     0.802  8 Al           C2/m       1
 Al-91855-9500-7        0.00     8.505     0.834  8 Al           P21/m      1
 ```
 
-## Example 1.02
+Example 1.02
+============
 
 In this example we will use random searching to find the ground state of a Lennard–Jones cluster.
 
@@ -273,7 +278,8 @@ Al     0.9383998151967    -1.8872737156990    -0.4889793760508
 Al    -0.9384009213786     1.8872733212961     0.4889787786564
 ```
 
-## Example 1.03
+Example 1.03
+============
 
 In this example we will use random searching to find the ground state of Lennard–Jones clusters of a range of sizes.
 
@@ -338,7 +344,8 @@ $ ca -u 0.01 -s -cl | awk '{print $3,$2/$3}' | xmgrace -pipe
 
 It should be clear from your results that the 13 atom `Ih` symmetry cluster is particularly stable. Indeed, the final column of the summary presents the second derivative of the total energy with cluster size. The curvature is strongly positive for the 13 atom cluster, indicating high stability as compared to its neighbours.
 
-## Example 1.04
+Example 1.04
+============
 
 In this example we will use random searching to find the ground state of Lennard–Jones cluster with 38 atoms, using symmetry.
 
@@ -393,7 +400,8 @@ Al-65004-3113-65       0.00   210.526     0.105 38 Al           C1         1
 
 The above is a summary of the completed run, followed by the top ten (`-t`) structures. The known Oh ground state of LJ38 is found twice in 200 attempts in this example, and the C5v icosahedral minima is also located. The use of symmetry is highly recommended—compare to the results of Example 1.05.
 
-## Example 1.05
+Example 1.05
+============
 
 In this example we will use random searching to find the ground state of Lennard–Jones cluster with 38 atoms, and the relax and shake algorithm.
 
@@ -467,7 +475,8 @@ In the above example, in both random search, and RASH, the known ground state fo
 
 It is clear, for this problem, that the use of symmetry explored in 1.04 is recommended.
 
-## Example 1.06
+Example 1.06
+============
 
 In this example we will use random searching to find the ground state of the Lennard–Jones 56 atom cluster, using a pre-built LJ55 icosahedral core.
 
@@ -571,7 +580,8 @@ Al-52722-9075-2        0.00   142.857     0.006 56 Al           Cs         1
 
 In the above run the known ground state structure of LJ56 is located after 10 attempts.
 
-## Example 1.07
+Example 1.07
+============
 
 In this example we build a slab supercell of Lennard–Jones HCP crystal, and add another atom to the surface randomly.
 
@@ -619,7 +629,8 @@ Al-87679-1265-10       0.00    35.580     0.223 17 Al           P3m1       1
 Al-87679-1265-1        0.00    35.580     0.223 17 Al           P3m1       1
 ```
 
-## Example 1.08
+Example 1.08
+============
 
 In this example we search for stable crystalline configurations in the well known Kob–Anderson Binary Lennard–Jones system, at the A:B 80:20 composition.
 
@@ -657,7 +668,8 @@ AB-85154-3384-56      -0.00    30.748       0.361   2 BA4          I4/mmm     1
 AB-85154-3384-17       0.00    31.273       0.716   2 BA4          Cmmm       1
 ```
 
-## Example 1.09
+Example 1.09
+============
 
 In this example we explore a range of compositions using the Kob–Anderson Binary Lennard–Jones parameters.
 
@@ -718,7 +730,8 @@ AB-98628-151-19        0.00    22.648    -45.520   0.404   1.100 -  1 B3A2      
 AB-98628-151-36       -0.00    31.939    -65.356   0.663   1.185 -  1 B4A3         R-3m       1
 ```
 
-## Example 1.10
+Example 1.10
+============
 
 We now perform a ternary search.
 
