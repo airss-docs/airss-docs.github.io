@@ -3,10 +3,10 @@ title: AIRSS Documentation
 email:
 description: >-
   ...
-baseurl: /airss-docs.github.io
-url: https://mmistakes.github.io
-twitter_username: mmistakes
-github_username: mmistakes
+baseurl: 
+url: http://airss-docs.github.io
+twitter_username: 
+github_username: 
 minimal_mistakes_skin: contrast
 
 markdown: kramdown
@@ -36,3 +36,4 @@ defaults:
       comments: true
       share: true
       related: true
+      breadcrumbs: true
