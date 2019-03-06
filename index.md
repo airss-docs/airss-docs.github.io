@@ -10,13 +10,13 @@ AIRSS has been used in a number of landmark studies in structure prediction, fro
 
 The approach naturally extends to the prediction of clusters/molecules, defects in solids,[^6] interfaces and surfaces (which can be thought of as interfaces with vacuum).[^7]
 
-[^1] C.J. Pickard and R.J. Needs, Phys. Rev. Lett., 97, 045504 (2006)  
-[^2] C.J. Pickard and R.J. Needs, J. Phys.: Condens. Matter 23, 053201 (2011)  
-[^3] C.J. Pickard and R.J. Needs, Nature Physics, 3, 473 (2007)  
-[^4] C.J. Pickard and R.J. Needs, Nature Materials, 9, 624 (2010)  
-[^5] C.J. Pickard and R.J. Needs, Nature Materials, 7, 775 (2008)  
-[^6] A.J. Morris, C.J. Pickard and R.J. Needs, Phys. Rev. B, 78, 184102 (2008)  
-[^7] G. Schusteritsch and C.J. Pickard, Phys. Rev. B, 90, 035424 (2014)  
+[^1]: C.J. Pickard and R.J. Needs, Phys. Rev. Lett., 97, 045504 (2006)  
+[^2]: C.J. Pickard and R.J. Needs, J. Phys.: Condens. Matter 23, 053201 (2011)  
+[^3]: C.J. Pickard and R.J. Needs, Nature Physics, 3, 473 (2007)  
+[^4]: C.J. Pickard and R.J. Needs, Nature Materials, 9, 624 (2010)  
+[^5]: C.J. Pickard and R.J. Needs, Nature Materials, 7, 775 (2008)  
+[^6]: A.J. Morris, C.J. Pickard and R.J. Needs, Phys. Rev. B, 78, 184102 (2008)  
+[^7]: G. Schusteritsch and C.J. Pickard, Phys. Rev. B, 90, 035424 (2014)  
 
 Table of contents
 =================
