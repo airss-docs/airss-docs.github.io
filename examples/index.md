@@ -29,8 +29,6 @@ List of Examples
 
 Example 1.01
 ============
-Lennard–Jones solid with 8 atoms
---------------------------------
 
 In this example we will use random searching to find the ground state of a Lennard–Jones solid.
 
@@ -763,7 +761,8 @@ ABC-20883-7172-960       0.00     5.363     -5.014   0.000   0.000 +  2 C       
 If R is installed, along with the ggtern package, then the terary convex hull can be visualised by
 running `Rscript ternary.r`, and opening the resulting PDF file.
 
-## Example 1.11
+Example 1.11
+============
 
 Here we search for defects by digging a hole in a bulk crystal, and randomising the positions of the atoms in the hole. It is particularly important to visualise the output of the randomisation phase before optimisation for these more complex geometries.
 
@@ -786,7 +785,8 @@ AB-93091-2716-90         0.00  4458.846       5.143   1 B4A179       P1         
 
 It appears that a particularly low energy defect has been located which possesses some symmetry. It is clear that the search is not exhaustive, given the lack of low energy repeats.
 
-## Example 1.12
+Example 1.12
+============
 
 Here we pack a number of B atoms into a fixed A atom nanotube.
 
@@ -806,7 +806,8 @@ AB-86038-5186-4          0.00   122.976       0.167  24 BA4          P1         
 AB-86038-5186-35         0.00   122.976       0.167  24 BA4          P1         1
 ```
 
-## Example 1.13
+Example 1.13
+============
 
 Here we search for an interface between the A and B binary Lennard–Jones atoms. Again, check the output
 of the random structure generation before optimisation.
@@ -829,7 +830,8 @@ AB-93141-9769-69         0.00    99.314       0.052  24 B2A3         Pmm2       
 
 A low energy, relatively high symmetry structure has been found three times this time.
 
-## Example 2.01
+Example 2.01
+============
 
 In this example we will explore the energy landscape of Carbon at 100 GPa (or 1 MBar). For comparison, the pressure at the centre of the Earth is about 350 GPa.
 
@@ -883,7 +885,8 @@ C2-90568-5971-9      100.03     4.477     2.555  2 C            P1         1
 
 In this very small cell, most of the structures found are the diamond structure (space group `Fd-3m`). If the search is repeated at lower pressures, for example 1 GPa, more graphitic structures will be found.
 
-## Example 2.02
+Example 2.02
+============
 
 In this example we explore hydrogen at 100 GPa. First we perform a free search.
 
@@ -984,7 +987,8 @@ H2-3639-9598-6        99.96     2.193       0.097   8 H            P-1        1
 H-99432-8459-2       100.00     2.172       0.098   8 H            P-1        1
 ```
 
-## Example 2.03
+Example 2.03
+============
 
 This is a fixed unit cell search for γ-B, using experimental lattice parameters and 28 B atoms.
 
@@ -1020,7 +1024,8 @@ search the energy landscape is good enough to permit the known `Pnnm` structure 
 located. In this case it has been located four times out of 1053 attempts. In a longer run it has been located
 113 times in 21,222 attempts, suggesting a mean number of attempts to identify the ground state of 188.
 
-## Example 2.04
+Example 2.04
+============
 
 We can analyse the `Pmmn` γ-B structure identified in Example 2.3 using a modularity detection algorithm as
 applied to the complex network of atomic contacts. See the following paper for more details [S. E. Ahnert, W. P. Grant, and C. J. Pickard "Revealing and exploiting hierarchical material structure through complex atomic networks."  _npj Computational Materials_, 2017, **3**, 35.](https://doi.org/10.1038/s41524-017-0035-x)
@@ -1147,7 +1152,8 @@ Number of compositions :      1
 
 This time the γ-B structure was located three times out of 187 attempts.
 
-## Example 3.01
+Example 3.01
+============
 
 This example is a repeat of Example 2.1 using `-gulp` and a Tersoff potential.
 
@@ -1168,7 +1174,8 @@ C2-41554-5032-7      100.00     4.643       3.070   2 C            I4/mmm     1
 C2-41554-5032-5      100.00     4.693       3.236   2 C            P-1        1
 ````
 
-## Example 3.02
+Example 3.02
+============
 
 In this example `-gulp` and a Tersoff potential are used to relax structures generated with coordination constraints.
 Random 'sensible' structures with 8 carbon atoms are constructed, such that each atom is four-fold coordinated, and
@@ -1243,7 +1250,8 @@ C-17050-333-21           0.00     6.028       0.457   8 C            P-1        
 C-17050-333-24           0.00     6.087       0.725   8 C            P1         1    1 2.00
 ````
 
-## Example 3.03
+Example 3.03
+============
 
 In this example we use coordination constraints to rapidly locate the icosahedral C₂₀ fullerene.
 
@@ -1296,7 +1304,8 @@ C-68766-2151-6           0.00   400.000       0.072  20 C            C2v        
 C-68766-2151-9           0.00   400.000       0.109  20 C            Cs         1
 ````
 
-### Example 3.04
+Example 3.04
+============
 
 In this example we perform a symmetry unconstrained search for SiO₂ polymorphs using the Vashishta potential.
 
@@ -1326,7 +1335,8 @@ SiO2-78871-6919-10       0.00    33.569       0.479   2 SiO2         Cmc21      
 SiO2-78871-6919-89       0.00    43.827       0.493   2 SiO2         R32        1
 ````
 
-### Example 3.05
+Example 3.05
+============
 
 In this example we will perform a search for 2D silica structures using `-gulp` and the Vashishta potential. First take a look at the input file for `buildcell`:
 
@@ -1378,7 +1388,8 @@ SiO2-1291-404-83         0.00    75.007       0.971   4 SiO2         P-1        
 
 Visualise your results. The lower energy structures that you find should be some variant of bilayer hexagonal silica. It is clear that 100 samples is not exhaustive, since the are no repeated low energy structures.
 
-### Example 3.06
+Example 3.06
+============
 
 In this example we search for small SiO₂ clusters using a Vashishta potential.
 
@@ -1424,7 +1435,8 @@ SiO2-33704-5555-2        0.00  2000.000       4.595   4 SiO2         C1         
 SiO2-33704-5555-1        0.00  2000.000      11.250   4 SiO2         C1         1
 ````
 
-### Example 3.07
+Example 3.07
+============
 
 In this example we search for well packed methane (CH₄) molecular crystals. The Tersoff potential is used to determine the interatomic interactions, and it is expected to provide only a coarse approximation.
 
@@ -1474,7 +1486,8 @@ CH4-32238-381-7          1.00     8.980       0.730   4 CH4          P1         
 
 The ten samples above are not exhaustive. A low energy solution is known to be cubic with space group `P213`, and cubic solutions can be encouraged by uncommenting the `SYSTEM=Cubi` line in `CH4.cell`.
 
-### Example 4.01
+Example 4.01
+============
 
 In this example we will explore the energy landscape of Carbon at 100 GPa (or 1 MBar). For comparison, the pressure at the centre of the Earth is about 350 GPa.
 
