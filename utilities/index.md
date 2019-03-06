@@ -106,7 +106,7 @@ This handy python utility can convert from cif files to a variety of electronic 
 http://cif2cell.sourceforge.net/
 http://www.sciencedirect.com/science/article/pii/S0010465511000336
 
-Core AIRSS scripts and codes
+Core AIRSS Scripts and Codes
 ============================
 
 airss.pl
