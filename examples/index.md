@@ -6,6 +6,11 @@ sidebar:
   nav: "docs"
 ---
 
+Introduction to the examples. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+List of Examples
+----------------
+
 - [**1.01**](#example-101): Lennard–Jones solid with 8 atoms  
 - [**1.02**](#example-102): Lennard–Jones cluster with 13 atoms  
 - [**1.03**](#example-103): Lennard–Jones cluster with 2–13 atoms  
@@ -33,7 +38,7 @@ sidebar:
 - [**4.01**](#example-401): VASP free search for 2 atoms of carbon at 100 GPa  
 
 Example 1.01
-============
+------------
 
 In this example we will use random searching to find the ground state of a Lennard–Jones solid.
 
@@ -139,7 +144,7 @@ Al-91855-9500-7        0.00     8.505     0.834  8 Al           P21/m      1
 ```
 
 Example 1.02
-============
+------------
 
 In this example we will use random searching to find the ground state of a Lennard–Jones cluster.
 
@@ -282,7 +287,7 @@ Al    -0.9384009213786     1.8872733212961     0.4889787786564
 ```
 
 Example 1.03
-============
+------------
 
 In this example we will use random searching to find the ground state of Lennard–Jones clusters of a range of sizes.
 
@@ -348,7 +353,7 @@ $ ca -u 0.01 -s -cl | awk '{print $3,$2/$3}' | xmgrace -pipe
 It should be clear from your results that the 13 atom `Ih` symmetry cluster is particularly stable. Indeed, the final column of the summary presents the second derivative of the total energy with cluster size. The curvature is strongly positive for the 13 atom cluster, indicating high stability as compared to its neighbours.
 
 Example 1.04
-============
+------------
 
 In this example we will use random searching to find the ground state of Lennard–Jones cluster with 38 atoms, using symmetry.
 
@@ -404,7 +409,7 @@ Al-65004-3113-65       0.00   210.526     0.105 38 Al           C1         1
 The above is a summary of the completed run, followed by the top ten (`-t`) structures. The known Oh ground state of LJ38 is found twice in 200 attempts in this example, and the C5v icosahedral minima is also located. The use of symmetry is highly recommended—compare to the results of Example 1.05.
 
 Example 1.05
-============
+------------
 
 In this example we will use random searching to find the ground state of Lennard–Jones cluster with 38 atoms, and the relax and shake algorithm.
 
@@ -479,7 +484,7 @@ In the above example, in both random search, and RASH, the known ground state fo
 It is clear, for this problem, that the use of symmetry explored in 1.04 is recommended.
 
 Example 1.06
-============
+------------
 
 In this example we will use random searching to find the ground state of the Lennard–Jones 56 atom cluster, using a pre-built LJ55 icosahedral core.
 
@@ -584,7 +589,7 @@ Al-52722-9075-2        0.00   142.857     0.006 56 Al           Cs         1
 In the above run the known ground state structure of LJ56 is located after 10 attempts.
 
 Example 1.07
-============
+------------
 
 In this example we build a slab supercell of Lennard–Jones HCP crystal, and add another atom to the surface randomly.
 
@@ -633,7 +638,7 @@ Al-87679-1265-1        0.00    35.580     0.223 17 Al           P3m1       1
 ```
 
 Example 1.08
-============
+------------
 
 In this example we search for stable crystalline configurations in the well known Kob–Anderson Binary Lennard–Jones system, at the A:B 80:20 composition.
 
@@ -672,7 +677,7 @@ AB-85154-3384-17       0.00    31.273       0.716   2 BA4          Cmmm       1
 ```
 
 Example 1.09
-============
+------------
 
 In this example we explore a range of compositions using the Kob–Anderson Binary Lennard–Jones parameters.
 
@@ -734,7 +739,7 @@ AB-98628-151-36       -0.00    31.939    -65.356   0.663   1.185 -  1 B4A3      
 ```
 
 Example 1.10
-============
+------------
 
 We now perform a ternary search.
 
@@ -767,7 +772,7 @@ If R is installed, along with the ggtern package, then the terary convex hull ca
 running `Rscript ternary.r`, and opening the resulting PDF file.
 
 Example 1.11
-============
+------------
 
 Here we search for defects by digging a hole in a bulk crystal, and randomising the positions of the atoms in the hole. It is particularly important to visualise the output of the randomisation phase before optimisation for these more complex geometries.
 
@@ -791,7 +796,7 @@ AB-93091-2716-90         0.00  4458.846       5.143   1 B4A179       P1         
 It appears that a particularly low energy defect has been located which possesses some symmetry. It is clear that the search is not exhaustive, given the lack of low energy repeats.
 
 Example 1.12
-============
+------------
 
 Here we pack a number of B atoms into a fixed A atom nanotube.
 
@@ -812,7 +817,7 @@ AB-86038-5186-35         0.00   122.976       0.167  24 BA4          P1         
 ```
 
 Example 1.13
-============
+------------
 
 Here we search for an interface between the A and B binary Lennard–Jones atoms. Again, check the output
 of the random structure generation before optimisation.
@@ -836,7 +841,7 @@ AB-93141-9769-69         0.00    99.314       0.052  24 B2A3         Pmm2       
 A low energy, relatively high symmetry structure has been found three times this time.
 
 Example 2.01
-============
+------------
 
 In this example we will explore the energy landscape of Carbon at 100 GPa (or 1 MBar). For comparison, the pressure at the centre of the Earth is about 350 GPa.
 
@@ -891,7 +896,7 @@ C2-90568-5971-9      100.03     4.477     2.555  2 C            P1         1
 In this very small cell, most of the structures found are the diamond structure (space group `Fd-3m`). If the search is repeated at lower pressures, for example 1 GPa, more graphitic structures will be found.
 
 Example 2.02
-============
+------------
 
 In this example we explore hydrogen at 100 GPa. First we perform a free search.
 
@@ -993,7 +998,7 @@ H-99432-8459-2       100.00     2.172       0.098   8 H            P-1        1
 ```
 
 Example 2.03
-============
+------------
 
 This is a fixed unit cell search for γ-B, using experimental lattice parameters and 28 B atoms.
 
@@ -1030,7 +1035,7 @@ located. In this case it has been located four times out of 1053 attempts. In a 
 113 times in 21,222 attempts, suggesting a mean number of attempts to identify the ground state of 188.
 
 Example 2.04
-============
+------------
 
 We can analyse the `Pmmn` γ-B structure identified in Example 2.3 using a modularity detection algorithm as
 applied to the complex network of atomic contacts. See the following paper for more details [S. E. Ahnert, W. P. Grant, and C. J. Pickard "Revealing and exploiting hierarchical material structure through complex atomic networks."  _npj Computational Materials_, 2017, **3**, 35.](https://doi.org/10.1038/s41524-017-0035-x)
@@ -1158,7 +1163,7 @@ Number of compositions :      1
 This time the γ-B structure was located three times out of 187 attempts.
 
 Example 3.01
-============
+------------
 
 This example is a repeat of Example 2.1 using `-gulp` and a Tersoff potential.
 
@@ -1180,7 +1185,7 @@ C2-41554-5032-5      100.00     4.693       3.236   2 C            P-1        1
 ````
 
 Example 3.02
-============
+------------
 
 In this example `-gulp` and a Tersoff potential are used to relax structures generated with coordination constraints.
 Random 'sensible' structures with 8 carbon atoms are constructed, such that each atom is four-fold coordinated, and
@@ -1256,7 +1261,7 @@ C-17050-333-24           0.00     6.087       0.725   8 C            P1         
 ````
 
 Example 3.03
-============
+------------
 
 In this example we use coordination constraints to rapidly locate the icosahedral C₂₀ fullerene.
 
@@ -1310,7 +1315,7 @@ C-68766-2151-9           0.00   400.000       0.109  20 C            Cs         
 ````
 
 Example 3.04
-============
+------------
 
 In this example we perform a symmetry unconstrained search for SiO₂ polymorphs using the Vashishta potential.
 
@@ -1341,7 +1346,7 @@ SiO2-78871-6919-89       0.00    43.827       0.493   2 SiO2         R32        
 ````
 
 Example 3.05
-============
+------------
 
 In this example we will perform a search for 2D silica structures using `-gulp` and the Vashishta potential. First take a look at the input file for `buildcell`:
 
@@ -1394,7 +1399,7 @@ SiO2-1291-404-83         0.00    75.007       0.971   4 SiO2         P-1        
 Visualise your results. The lower energy structures that you find should be some variant of bilayer hexagonal silica. It is clear that 100 samples is not exhaustive, since the are no repeated low energy structures.
 
 Example 3.06
-============
+------------
 
 In this example we search for small SiO₂ clusters using a Vashishta potential.
 
@@ -1441,7 +1446,7 @@ SiO2-33704-5555-1        0.00  2000.000      11.250   4 SiO2         C1         
 ````
 
 Example 3.07
-============
+------------
 
 In this example we search for well packed methane (CH₄) molecular crystals. The Tersoff potential is used to determine the interatomic interactions, and it is expected to provide only a coarse approximation.
 
@@ -1492,7 +1497,7 @@ CH4-32238-381-7          1.00     8.980       0.730   4 CH4          P1         
 The ten samples above are not exhaustive. A low energy solution is known to be cubic with space group `P213`, and cubic solutions can be encouraged by uncommenting the `SYSTEM=Cubi` line in `CH4.cell`.
 
 Example 4.01
-============
+------------
 
 In this example we will explore the energy landscape of Carbon at 100 GPa (or 1 MBar). For comparison, the pressure at the centre of the Earth is about 350 GPa.
 
