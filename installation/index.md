@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-Download the latest AIRSS release using [this link](). Extract `airss-x.x.x.tgz` and then navigate into the `airss-x.x.x/` directory:
+Extract `airss-x.x.x.tgz` and then navigate into the `airss-x.x.x/` directory:
 
 ```console
 $ tar -xvf airss-0.9.1.tgz
