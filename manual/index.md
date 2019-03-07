@@ -100,7 +100,7 @@ Show bond angles, length distributions.
 ### Directives
 
 **Directive**     | **Description** | **Default**
-:============     | :============== | :===:
+:============     | :============== | ==========:
 `#ABFIX`          | Fix the a- and b-axis. Should be placed in the `LATTICE_CART`/`LATTICE_ABC` block. | **false**
 `#ACONS`          | Rejects unit cells that are too flat. It takes a value of less than 1.0, and larger values favour more three dimensional cells. The volume of the unit cell is given below. The quantity in the square root must be greater than `ACONS` for the unit cell to be accepted.
 `#ADJGEN`         | A value of 0 enforces the maximum possible use of symmetry related general positions. Larger values permit greater use of special positions. It is increased dynamically if it proves difficult to generate stuctures with smaller values. | **0**
