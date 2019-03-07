@@ -6,14 +6,12 @@ sidebar:
   nav: "docs"
 ---
 
-External Utilities
-==================
+AIRSS calls a number of external packages to perform specific tasks related to calculation and analysis. This page provides an overview of these packages.
 
 spglib
 ------
 
-An excellent library for finding and handling crystal symmetries,
-written in C by Atsushi Togo.
+An excellent library for finding and handling crystal symmetries, written in C by Atsushi Togo.
 
 http://atztogo.github.io/spglib/
 
