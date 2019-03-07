@@ -1,13 +1,10 @@
 ---
-title: "AIRSS Documentation"
+title: "About AIRSS"
 layout: single
 classes: wide
 sidebar:
   nav: "docs"
 ---
-
-Introduction
-============
 
 Ab initio Random Structure Searching (AIRSS) is a very simple, yet powerful and highly parallel, approach to structure prediction. The concept was introduced in 2006[^1] and its philosophy more extensively discussed in 2011.[^2]
 
