@@ -9,9 +9,9 @@ docs:
         url: /    
       - title: "Installation"
         url: /installation/
-      - title: "Utilities"
-        url: /utilities/
       - title: "Examples"
         url: /examples/
+      - title: "Utilities"
+        url: /utilities/
       - title: "User Manual"
         url: /manual/
