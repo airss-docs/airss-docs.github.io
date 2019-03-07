@@ -1,3 +1,11 @@
+---
+title: "AIRSS Manual"
+layout: single
+classes: wide
+sidebar:
+  nav: "docs"
+---
+
 AIRSS Manual
 ============
 
