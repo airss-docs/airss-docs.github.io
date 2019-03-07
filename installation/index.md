@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-Download the latest AIRSS release from the [Cambridge Materials Theory Group website](https://www.mtg.msm.cam.ac.uk/Codes/AIRSS). Assuming AIRSS v0.9.1, extract `airss-0.9.1.tgz` and navigate into the `airss-0.9.1/` directory:
+Download the latest AIRSS release using [this link](). Extract `airss-x.x.x.tgz` and then navigate into the `airss-x.x.x/` directory:
 
 ```console
 $ tar -xvf airss-0.9.1.tgz
