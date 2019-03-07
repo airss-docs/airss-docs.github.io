@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+/* type scale */
+$type-size-1 : 2.2em;
+$type-size-2 : 1.7em;
+$type-size-3 : 1.2em;
+$type-size-4 : 1em;
+$type-size-5 : 0.8em;
+$type-size-6 : 0.7em;
+$type-size-7 : 0.6875em;
+$type-size-8 : 0.625em;
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
