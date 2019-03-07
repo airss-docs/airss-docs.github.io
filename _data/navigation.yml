@@ -5,6 +5,8 @@ main:
 docs:
   - title: Getting Started
     children:
+      - title: "About AIRSS"
+        url: /    
       - title: "Installation"
         url: /installation/
       - title: "Utilities"
