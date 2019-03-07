@@ -22,7 +22,7 @@ The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/li
 References
 ==========
 
-([1]) C.J. Pickard and R.J. Needs, Phys. Rev. Lett., **97**, 045504 (2006)  
+([1]) C.J. Pickard and R.J. Needs, Phys. Rev. Lett., **97**, 045504 (2006) [[Link][1]]  
 ([2]) C.J. Pickard and R.J. Needs, J. Phys.: Condens. Matter, **23**, 053201 (2011)  
 ([3]) C.J. Pickard and R.J. Needs, Nat. Phys., **3**, 473 (2007)  
 ([4]) C.J. Pickard and R.J. Needs, Nat. Mater., **9**, 624 (2010)  
