@@ -103,41 +103,36 @@ Show bond angles, length distributions.
 :============     | :==============
 `#ABFIX`          | Fix the a- and b-axis. Should be placed in the `LATTICE_CART`/`LATTICE_ABC` block. **Default : false**
 `#ACONS`          | Rejects unit cells that are too flat. It takes a value of less than 1.0, and larger values favour more three dimensional cells. The volume of the unit cell is given below. The quantity in the square root must be greater than `ACONS` for the unit cell to be accepted.
-`#ADJGEN`         |
-`#ANGAMP`         | 
-`#AUTOSLACK`      |
-`#BREAKAMP`       |
-`#CELLADAPT`      |
-`#CELLAMP`        |
-`#CELLCON`        |
-`#CFIX`           |
-`#CLUSTER`        |
-`#COMPACT`        |
-`#CONS`           |
+`#ADJGEN`         | A value of 0 enforces the maximum possible use of symmetry related general positions. Larger values permit greater use of special positions. It is increased dynamically if it proves difficult to generate stuctures with smaller values. **Default: 0**
+`#ANGAMP`         | Amplitude of rotation for units (or molecules). It is to be supplied in degrees, and a negative value implies full rotation. It can be specified on a unit by unit basis. **Default: −1**
+`#BREAKAMP`       | Amplitude of random displacement of atoms to break symmetry. **Default: 0**
+`#CELLADAPT`      | Permit a change in shape of the unit cell when applying distance constraints through the hard sphere potentials. **Default: false**
+`#CELLAMP`        | Amplitude for the random variation of a supplied unit cell. A negative value implies no relation to original cell. **Default: −1**
+`#CELLCON`        | Apply cell contraints. Specified as a vector (*a*, *b*, *c*, *α*, *β*, *γ*). For example `#CELLCON=-1 -1 -1 90 90 90` specifies a cubic unit cell, and `#CELLCON=-1 -1 -1 -1 -1 -1` a rhombohedral cell. `#CELLCON` conflicts with `#SYSTEM`.
+`#CFIX`           | Fix the c-axis. Should be placed in the `LATTICE_CART`/`LATTICE_ABC` block. **Default: false**
+`#CLUSTER`        | Selects internal settings for cluster geometries. **Default: false**
+`#COMPACT`        | Force a Niggli reduction of the unit cell. False by default if `#CLUSTER` is false, and the unit cell is not fixed using `#FIX`, `#ABFIX`, `#CFIX` or `#CELLAMP=0`. **Default: true**
+`#CONS`           | 
 `#COORD`          |
 `#CYLINDER`       |
-`#FIX`            |
-`#FLIP`           |
-`#FOCUS`          |
-`#MAXBANGLE`      |
-`#MAXTIME`        |
-`#MINAMP`         |
+`#FIX`            | Fix the unit cell. **Default: false**
+`#FLIP`           | Randomly mirror the structural units. **Default: false**
+`#FOCUS`          | Focus the compositional search on elements (`#FOCUS=1`), binaries (`#FOCUS=2`), ternaries (`#FOCUS=3`), etc. **Default: 0**
+`#MAXBANGLE`      | 
+`#MAXTIME`        | Determines how long, in seconds, should be spent attempting to build structures with given settings. **Default: 1**
+`#MINAMP`         | 
 `#MINBANGLE`      |
 `#MINSEP`         |
-`#MOLECULES`      |
 `#NATOM`          |
 `#NFORM`          |
-`#NOCOMPACT`      |
-`#NOPUSH`         |
-`#OCTET`          |
+`#NOCOMPACT`      | Force no Niggli reduction of the unit cell. **Default: false**
+`#NOPUSH`         | 
+`#OCTET`          | Checks if number of valence electrons is a multiple of eight. **Default: false**
 `#OVERLAP`        |
 `#PERMFRAC`       |
 `#PERMUTE`        |
 `#POSAMP`         |
 `#RAD`            |
-`#RASH`           |
-`#RASH_ANGAMP`    |
-`#RASH_POSAMP`    |
 `#REMOVE`         |
 `#SGRANK`         |
 `#SHIFT`          |
@@ -155,7 +150,6 @@ Show bond angles, length distributions.
 `#SYSTEM`         |
 `#TARGVOL`        |
 `#THREE`          |
-`#TIGHT`          |
 `#VACANCIES`      |
 `#VACUUM`         |
 `#VARVOL`         |
