@@ -11,7 +11,7 @@ docs:
         url: /installation/
       - title: "Utilities"
         url: /utilities/
-      - title: "AIRSS Examples"
+      - title: "Examples"
         url: /examples/
-      - title: "AIRSS Manual"
+      - title: "User Manual"
         url: /manual/
