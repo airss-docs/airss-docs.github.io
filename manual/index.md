@@ -1,13 +1,10 @@
 ---
-title: "AIRSS Manual"
+title: "AIRSS User Manual"
 layout: single
 classes: wide
 sidebar:
   nav: "docs"
 ---
-
-AIRSS Manual
-============
 
 ### Buildcell
 
