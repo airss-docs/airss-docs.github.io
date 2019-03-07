@@ -22,10 +22,10 @@ The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/li
 References
 ==========
 
-1. C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
-2. C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
-3. C.J. Pickard and R.J. Needs, [Nat. Phys., **3**, 473 (2007)](https://doi.org/10.1038/nphys625)  
-4. C.J. Pickard and R.J. Needs, [Nat. Mater., **9**, 624 (2010)](https://doi.org/10.1038/nmat2796)  
-5. C.J. Pickard and R.J. Needs, [Nat. Mater., **7**, 775 (2008)](https://doi.org/10.1038/nmat2261)  
-6. A.J. Morris, C.J. Pickard and R.J. Needs, [Phys. Rev. B, **78**, 184102 (2008)](https://doi.org/10.1103/PhysRevB.78.184102)  
-7. G. Schusteritsch and C.J. Pickard, [Phys. Rev. B, **90**, 035424 (2014)](https://doi.org/10.1103/PhysRevB.90.035424) 
+(1) C.J. Pickard and R.J. Needs, [Phys. Rev. Lett., **97**, 045504 (2006)](https://doi.org/10.1103/PhysRevLett.97.045504)  
+(2) C.J. Pickard and R.J. Needs, [J. Phys.: Condens. Matter, **23**, 053201 (2011)](https://doi.org/10.1088/0953-8984/23/5/053201)  
+(3) C.J. Pickard and R.J. Needs, [Nat. Phys., **3**, 473 (2007)](https://doi.org/10.1038/nphys625)  
+(4) C.J. Pickard and R.J. Needs, [Nat. Mater., **9**, 624 (2010)](https://doi.org/10.1038/nmat2796)  
+(5) C.J. Pickard and R.J. Needs, [Nat. Mater., **7**, 775 (2008)](https://doi.org/10.1038/nmat2261)  
+(6) A.J. Morris, C.J. Pickard and R.J. Needs, [Phys. Rev. B, **78**, 184102 (2008)](https://doi.org/10.1103/PhysRevB.78.184102)  
+(7) G. Schusteritsch and C.J. Pickard, [Phys. Rev. B, **90**, 035424 (2014)](https://doi.org/10.1103/PhysRevB.90.035424) 
