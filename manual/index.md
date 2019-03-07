@@ -97,7 +97,7 @@ Show bond angles, length distributions.
 
 ### Units
 
-### Directives
+### Glossary of Directives
 
 **Directive**     | **Description** | **Default**
 :------------     | :-------------- | ----------:
