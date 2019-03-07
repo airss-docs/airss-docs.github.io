@@ -1,5 +1,5 @@
 ---
-title: "Installation"
+title: "AIRSS Installation"
 layout: single
 classes: wide
 sidebar:
