@@ -6,7 +6,10 @@ sidebar:
   nav: "docs"
 ---
 
-### Buildcell
+This page is intended to serve as a comprehensive reference for users of AIRSS. {expand}
+
+Buildcell
+=========
 
 The construction of reasonable, or _sensible_, random structures is central to AIRSS. The Fortran `buildcell` tool is provided in the AIRSS package for this purpose. It can build structures from scratch, or modify structures specified using the Castep `.cell` format. The random structures generated  are output in the Castep `.cell` format. `buildcell` reads from standard input (`stdin`), and writes to standard output (`stdout`). The output can be passed to the supplied Fortran `cabal` structure conversion tool. Additional information is reported to standard error (`stderr`).
 
@@ -87,19 +90,24 @@ Al     1  0.5536280000000  0.3415304000000  0.9743010000000 1.0
 END
 ```
 
-### Cell size and shape
+Cell size and shape
+-------------------
 
 Show bond angles, length distributions.
 
-### Cell content
+Cell content
+------------
 
-### Cell symmetry
+Cell symmetry
+-------------
 
-### Units
+Units
+-----
 
-### Glossary of Directives
+Glossary
+--------
 
-The following table lists all of the current directives that will be interpreted by AIRSS and provides a description of their usage.
+The following table lists all of the current directives that will be interpreted by `buildcell`, and provides a description of their intended usage.
 
 **Directive**     | **Description** | **Default**
 :------------     | :-------------- | :----------
