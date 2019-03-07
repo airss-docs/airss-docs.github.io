@@ -29,3 +29,5 @@ References
 (5) C.J. Pickard and R.J. Needs, [Nat. Mater., **7**, 775 (2008)](https://doi.org/10.1038/nmat2261)  
 (6) A.J. Morris, C.J. Pickard and R.J. Needs, [Phys. Rev. B, **78**, 184102 (2008)](https://doi.org/10.1103/PhysRevB.78.184102)  
 (7) G. Schusteritsch and C.J. Pickard, [Phys. Rev. B, **90**, 035424 (2014)](https://doi.org/10.1103/PhysRevB.90.035424) 
+
+[1]: https://doi.org/10.1103/PhysRevLett.97.045504
