@@ -99,6 +99,8 @@ Show bond angles, length distributions.
 
 ### Glossary of Directives
 
+The following table lists all of the current directives that will be interpreted by AIRSS and provides a description of their usage.
+
 **Directive**     | **Description** | **Default**
 :------------     | :-------------- | :----------
 **ABFIX**         | Fix the a- and b-axis. Should be placed in the `LATTICE_CART`/`LATTICE_ABC` block. | `false`
