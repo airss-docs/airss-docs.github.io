@@ -15,7 +15,7 @@ docs:
         url: /utilities/
       - title: "User Manual"
         url: /manual/
-  - title: Links
+  - title: External Links
     children:
       - title: "Materials Theory Group"
         url: https://www.mtg.msm.cam.ac.uk/
