@@ -106,7 +106,7 @@ Show bond angles, length distributions.
 `#ADJGEN`         | A value of 0 enforces the maximum possible use of symmetry related general positions. Larger values permit greater use of special positions. It is increased dynamically if it proves difficult to generate stuctures with smaller values. | 0
 `#ANGAMP`         | Amplitude of rotation for units (or molecules). It is to be supplied in degrees, and a negative value implies full rotation. It can be specified on a unit by unit basis. | −1
 `#BREAKAMP`       | Amplitude of random displacement of atoms to break symmetry. | 0
-`#CELLADAPT`      | Permit a change in shape of the unit cell when applying distance constraints through the hard sphere potentials. | `false`
+`#CELLADAPT`      | Permit a change in shape of the unit cell when applying distance constraints through the hard sphere potentials. | false
 `#CELLAMP`        | Amplitude for the random variation of a supplied unit cell. A negative value implies no relation to original cell. | −1
 `#CELLCON`        | Apply cell contraints. Specified as a vector (*a*, *b*, *c*, *α*, *β*, *γ*). For example `#CELLCON = -1 -1 -1 90 90 90` specifies a cubic unit cell, and `#CELLCON = -1 -1 -1 -1 -1 -1` a rhombohedral cell. `#CELLCON` conflicts with `#SYSTEM`.
 `#CFIX`           | Fix the c-axis. Should be placed in the `LATTICE_CART`/`LATTICE_ABC` block. | false
