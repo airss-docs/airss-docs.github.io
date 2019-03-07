@@ -15,6 +15,6 @@
   } }
 
 /* links */
-$link-color: mix(#000, $info-color, 100%) ;
-$link-color-hover: mix(#FF0000, $link-color, 80%) ;
-$link-color-visited: mix(#fff, $info-color, 100%) ;
+$link-color: $info-color ;
+$link-color-hover: $info-color ;
+$link-color-visited: $info-color ;
