@@ -15,12 +15,12 @@ AIRSS has been used in a number of landmark studies in structure prediction, fro
 The AIRSS package is tightly integrated with the Castep first principles total energy code. However, it is relatively straightforward to modify the scripts to use alternative codes to obtain the core functionality. `xxx_relax` scripts for vasp, pp3, gulp, psi4, and lammps are provided and integrated with the `airss.pl` script.
 
 Licence and Citation
-====================
+--------------------
 
 The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing references [[1]] and [[2]] in any work that makes use of the AIRSS package.
 
 References
-==========
+----------
 
 (1) C.J. Pickard and R.J. Needs, Phys. Rev. Lett., **97**, 045504 (2006) [[Link][1]]  
 (2) C.J. Pickard and R.J. Needs, J. Phys.: Condens. Matter, **23**, 053201 (2011) [[Link][2]]  
