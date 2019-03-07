@@ -14,4 +14,8 @@ $link-color: #0092ca ;
   li,
   dl {
     font-size: 0.8em;
-  } }
+  } 
+  a {
+    text-underline: none;
+  }
+}
