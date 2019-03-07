@@ -1,6 +1,6 @@
 main:
-  - title: "Home"
-    url: /installation/
+  - title: "Download AIRSS v0.9.1"
+    url: http://bit.ly/2KtvEWU
 
 docs:
   - title: Getting Started
