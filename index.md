@@ -17,7 +17,7 @@ The AIRSS package is tightly integrated with the Castep first principles total e
 Licence and Citation
 ====================
 
-The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing references [1] and [2] in any work that makes use of the AIRSS package.
+The AIRSS package is released under the [GPL 2.0 licence](https://www.gnu.org/licenses/gpl-2.0.html). See the `LICENCE` file for more details. You are not required to, but you might consider citing references [[1]] and [[2]] in any work that makes use of the AIRSS package.
 
 References
 ==========
