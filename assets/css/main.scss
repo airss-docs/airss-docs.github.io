@@ -13,3 +13,8 @@
   dl {
     font-size: 0.8em;
   } }
+
+/* links */
+$link-color: mix(#000, $info-color, 100%) ;
+$link-color-hover: mix(#000, $link-color, 80%) ;
+$link-color-visited: mix(#fff, $info-color, 100%) ;
