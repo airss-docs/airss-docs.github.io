@@ -1,15 +1,10 @@
 ---
-title: "AIRSS User Manual"
+title: "AIRSS Buildcell Manual"
 layout: single
 classes: wide
 sidebar:
   nav: "docs"
 ---
-
-This page is intended to serve as a comprehensive reference for users of AIRSS. {expand}
-
-Buildcell
-=========
 
 The construction of reasonable, or _sensible_, random structures is central to AIRSS. The Fortran `buildcell` tool is provided in the AIRSS package for this purpose. It can build structures from scratch, or modify structures specified using the Castep `.cell` format. The random structures generated  are output in the Castep `.cell` format. `buildcell` reads from standard input (`stdin`), and writes to standard output (`stdout`). The output can be passed to the supplied Fortran `cabal` structure conversion tool. Additional information is reported to standard error (`stderr`).
 
