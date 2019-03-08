@@ -13,8 +13,8 @@ docs:
         url: /examples/
       - title: "Utilities"
         url: /utilities/
-      - title: "User Manual"
-        url: /manual/
+      - title: "Buildcell Guide"
+        url: /buildcell-guide/
   - title: External Links
     children:
       - title: "Materials Theory Group"
