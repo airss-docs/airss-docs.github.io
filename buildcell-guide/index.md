@@ -1,5 +1,5 @@
 ---
-title: "AIRSS Buildcell Manual"
+title: "AIRSS Buildcell Guide"
 layout: single
 classes: wide
 sidebar:
