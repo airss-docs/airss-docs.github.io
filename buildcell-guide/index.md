@@ -123,10 +123,10 @@ The following table lists all of the current directives that will be interpreted
 **FIX**           | Fix the unit cell. | `false`
 **FLIP**          | Randomly mirror the structural units. | `false`
 **FOCUS**         | Focus the compositional search on elements (`#FOCUS=1`), binaries (`#FOCUS=2`), ternaries (`#FOCUS=3`), etc. | `0`
-**MAXBANGLE**     | 
+**MAXBANGLE**     | Maximum bond angle in coordination constraint application | `?`
 **MAXTIME**       | Determines how long, in seconds, should be spent attempting to build structures with given settings. | `1`
 **MINAMP**        | 
-**MINBANGLE**     |
+**MINBANGLE**     | Minimum bond angle in coordination constraint application | `?`
 **MINSEP**        |
 **NATOM**         |
 **NFORM**         |
