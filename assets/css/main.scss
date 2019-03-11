@@ -22,7 +22,7 @@ $base0e: #FFFFFF;
 $base0f: #FFFFFF;
 
 $link-color: #0092ca ;
-$footer-background-color: #000000;
+$footer-background-color: #063E72;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
