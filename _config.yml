@@ -9,7 +9,7 @@ twitter_username:
 github_username: 
 minimal_mistakes_skin: "air"
 logo: "/assets/images/airss-logo.svg"
-masthead_title: ""
+masthead_title: "&nbsp;"
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
