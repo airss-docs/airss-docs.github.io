@@ -8,6 +8,7 @@ url: http://airss-docs.github.io
 twitter_username: 
 github_username: 
 minimal_mistakes_skin: "air"
+logo: "/assets/images/airss-logo.svg"
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
