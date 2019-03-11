@@ -28,6 +28,10 @@ $footer-background-color: #063E72;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.site-logo img {
+  height: 2rem;
+}
+
 .page__content {
   p,
   li,
