@@ -152,7 +152,7 @@ The following table lists all of the current directives that will be interpreted
 **SYMMNO**        |
 **SYMMOPS**       |
 **SYMMORPHIC**    |
-**SYSTEM**        |
+**SYSTEM**        | Enforce a crystal system. Allowed values are {Rhom,Tric,Mono,Cubi,Hexa,Orth,Tetra} | `none`
 **TARGVOL**       |
 **THREE**         |
 **VACANCIES**     |
