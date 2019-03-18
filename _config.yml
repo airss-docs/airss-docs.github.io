@@ -27,7 +27,6 @@ plugins:
   - jemoji
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -38,6 +37,8 @@ defaults:
       comments: true
       share: true
       related: true
+      lang: en
+      base-url: "/"     
   - scope:
       path: zh
     values:
