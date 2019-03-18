@@ -38,3 +38,8 @@ defaults:
       comments: true
       share: true
       related: true
+   - scope:
+       path: zh
+     values:
+       lang: zh
+       base-url: "/zh/"
