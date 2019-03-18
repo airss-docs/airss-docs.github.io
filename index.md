@@ -2,6 +2,7 @@
 title: "About AIRSS"
 layout: single
 classes: wide
+i18n-link: about-airss
 sidebar:
   nav: "docs"
 ---
