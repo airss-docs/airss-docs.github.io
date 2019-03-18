@@ -8,7 +8,7 @@ docs:
       - title: "About AIRSS"
         url: /    
       - title: "Installation"
-        url: /installation/
+        url: "{{ site.base-url }}/installation/"
       - title: "Examples"
         url: /examples/
       - title: "Utilities"
