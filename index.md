@@ -2,7 +2,8 @@
 title: "About AIRSS"
 layout: single
 classes: wide
-i18n-link: about-airss
+lang: en
+lang-ref: about-airss
 sidebar:
   nav: "docs"
 ---
