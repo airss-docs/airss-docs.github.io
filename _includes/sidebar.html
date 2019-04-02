@@ -29,11 +29,13 @@
         <ul class="nav__items">
           <li>
           <span class="nav__sub-title">Language</span>
-            {% for post in posts %}
             <ul>
-            <a href="{{ site.base-url }}{{ post.url }}" />{{post.lang}}</a>
-            </ul>
+            {% for post in posts %}
+            <li>
+              <a href="{{ site.base-url }}{{ post.url }}" />{{post.lang}}</a>
+            </li>
             {% endfor %}
+            </ul>
           </li>
       {% endif %}                                              
     {% endif %}
