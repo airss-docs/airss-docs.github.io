@@ -12,6 +12,7 @@ docs:
       - title: "Examples"
         url: /examples/
   - title: Technical Details
+    children:
       - title: "AIRSS Utilities"
         url: /airss-utilities/
       - title: "External Utilities"
