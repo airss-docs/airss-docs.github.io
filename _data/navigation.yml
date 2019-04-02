@@ -11,10 +11,13 @@ docs:
         url: /installation/
       - title: "Examples"
         url: /examples/
-      - title: "Utilities"
-        url: /utilities/
-      - title: "Buildcell Guide"
-        url: /buildcell-guide/
+  - title: Technical Details
+      - title: "AIRSS Utilities"
+        url: /airss-utilities/
+      - title: "External Utilities"
+        url: /external-utilities/
+      - title: "Buildcell Glossary"
+        url: /buildcell-glossary/
   - title: External Links
     children:
       - title: "Materials Theory Group"
