@@ -25,13 +25,17 @@
           {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
       {% endif %}
       {% if posts.size > 1 %}
-      <li>
-        <span class="nav__sub-title">Language</span>
-        {% for post in posts %}
-          <ul>
-            <a href="{{ site.base-url }}{{ post.url }}" />"{{post.lang}}"</a>
-          </ul>
-        {% endfor %}
+      <nav class="nav__list">
+        <ul class="nav__item>
+          <li>
+          <span class="nav__sub-title">Language</span>
+            {% for post in posts %}
+            <ul>
+            <a href="{{ site.base-url }}{{ post.url }}" />{{post.lang}}</a>
+            </ul>
+            {% endfor %}
+          </li>
+      </nav>
       {% endif %}
     {% endif %}
   {% endif %}
