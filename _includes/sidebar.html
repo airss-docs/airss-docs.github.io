@@ -21,9 +21,13 @@
             {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
         {% endif %}
         {% if posts.size > 1 %}
-            {% for post in posts %}
-              <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title="View in {{page.lang}}">{{ page.lang }}</a>
-            {% endfor %}
+        <li>
+          <span class="nav__sub-title">Language</span>
+          {% for post in posts %}
+            <ul>
+              <a href="{{ site.base-url }}{{ post.url }}" />"{{post.lang}}"</a>
+            </ul>
+          {% endfor %}
         {% endif %}
       {% endif %}
     {% endfor %}
