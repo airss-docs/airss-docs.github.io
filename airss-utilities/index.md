@@ -1,4 +1,10 @@
-
+---
+title: "External Utilities"
+layout: single
+classes: wide
+sidebar:
+  nav: "docs"
+---
 
 airss.pl
 --------
@@ -53,20 +59,10 @@ castep_relax
 
 This bash script performs a self consistent geometry optimisation of the specified structure using Castep.
 
-vasp_relax
-----------
-
-This bash script performs a self consistent geometry optimisation of the specified structure using VASP.
-
 gulp_relax
 -----------
 
 This bash script performs a geometry optimisation of the specified structure using gulp.
-
-pp3_relax
-----------
-
-This bash script performs a geometry optimisation of the specified structure using pp3, a very simple pair potential code.
 
 lammps_relax
 ------------
@@ -75,13 +71,22 @@ This bash script performs a geometry optimisation of the specified structure usi
 
 > **Note:** This package is not currently recommended due to issues with structural optimisation.
 
+pp3_relax
+----------
+
+This bash script performs a geometry optimisation of the specified structure using `pp3`, a very simple pair potential code.
+
 psi4_relax
 ------------
 
-This bash script performs a geometry optimisation of the
-specified structure using psi4.
+This bash script performs a geometry optimisation of the specified structure using psi4.
 
 > **Note:** This package is not currently recommended due to issues with structural optimisation.
+
+vasp_relax
+----------
+
+This bash script performs a self consistent geometry optimisation of the specified structure using VASP.
 
 gencell
 -------
@@ -96,12 +101,12 @@ A simple pair potential code, for testing. It is used in the early chapters of t
 run.pl
 ------
 
-This perl script runs a batch of castep jobs in a directory. It is useful for "polishing" your results, and high-throughput computation in general. Failed runs are placed into 'bad_castep'.
+This Perl script runs a batch of castep jobs in a directory. It is useful for "polishing" your results, and high-throughput computation in general. Failed runs are placed into 'bad_castep'.
 
 crud.pl
 -------
 
-The Castep run daemon. A perl script for high-throughput batch calculations. The structures to be relaxed are placed in the 'hopper' directory (`/hopper`). Successful calculations are placed in `/good_castep`, and those that fail are placed into `bad_castep`. The script can be run as a daemon (i.e. continues running once the hopper is empty, and waits for more).
+The Castep run daemon. A Perl script for high-throughput batch calculations. The structures to be relaxed are placed in the 'hopper' directory (`/hopper`). Successful calculations are placed in `/good_castep`, and those that fail are placed into `bad_castep`. The script can be run as a daemon (i.e. continues running once the hopper is empty, and waits for more).
 
 spawn
 -----
