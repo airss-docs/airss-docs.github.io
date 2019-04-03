@@ -34,7 +34,7 @@ zh:
     - title: 汉字
       children:
         - title: "汉字"
-          url: /    
+          url: /zh/   
         - title: "汉字"
           url: /zh/installation/
         - title: "汉字"
