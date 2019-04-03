@@ -2,6 +2,8 @@
 title: "AIRSS Buildcell Guide"
 layout: single
 classes: wide
+lang: zh
+lang-ref: buildcell-manual
 sidebar:
   nav: "docs"
 ---
