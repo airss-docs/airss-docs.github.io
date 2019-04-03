@@ -2,6 +2,8 @@
 title: "AIRSS Installation"
 layout: single
 classes: wide
+lang: zh
+lang-ref: installation
 sidebar:
   nav: "docs"
 ---
