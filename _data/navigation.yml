@@ -31,23 +31,23 @@ zh:
       url: http://bit.ly/2KtvEWU
   
   docs:
-    - title: Getting Started
+    - title: 汉字
       children:
-        - title: "About AIRSS"
+        - title: "汉字"
           url: /    
-        - title: "Installation"
-          url: /installation/
-        - title: "Examples"
-          url: /examples/
-    - title: Technical Details
+        - title: "汉字"
+          url: /zh/installation/
+        - title: "汉字"
+          url: /zh/examples/
+    - title: 汉字
       children:
-        - title: "AIRSS Utilities"
-          url: /airss-utilities/
-        - title: "External Utilities"
-          url: /external-utilities/
-        - title: "Buildcell Glossary"
-          url: /buildcell-glossary/
-    - title: External Links
+        - title: "汉字"
+          url: /zh/airss-utilities/
+        - title: "汉字"
+          url: /zh/external-utilities/
+        - title: "汉字"
+          url: /zh/buildcell-glossary/
+    - title: 汉字
       children:
         - title: "Materials Theory Group"
           url: https://www.mtg.msm.cam.ac.uk/
