@@ -1,25 +1,54 @@
-main:
-  - title: "Download AIRSS v0.9.1"
-    url: http://bit.ly/2KtvEWU
-
-docs:
-  - title: Getting Started
-    children:
-      - title: "About AIRSS"
-        url: /    
-      - title: "Installation"
-        url: /installation/
-      - title: "Examples"
-        url: /examples/
-  - title: Technical Details
-    children:
-      - title: "AIRSS Utilities"
-        url: /airss-utilities/
-      - title: "External Utilities"
-        url: /external-utilities/
-      - title: "Buildcell Glossary"
-        url: /buildcell-glossary/
-  - title: External Links
-    children:
-      - title: "Materials Theory Group"
-        url: https://www.mtg.msm.cam.ac.uk/
+en:
+  main:
+    - title: "Download AIRSS v0.9.1"
+      url: http://bit.ly/2KtvEWU
+  
+  docs:
+    - title: Getting Started
+      children:
+        - title: "About AIRSS"
+          url: /    
+        - title: "Installation"
+          url: /installation/
+        - title: "Examples"
+          url: /examples/
+    - title: Technical Details
+      children:
+        - title: "AIRSS Utilities"
+          url: /airss-utilities/
+        - title: "External Utilities"
+          url: /external-utilities/
+        - title: "Buildcell Glossary"
+          url: /buildcell-glossary/
+    - title: External Links
+      children:
+        - title: "Materials Theory Group"
+          url: https://www.mtg.msm.cam.ac.uk/
+          
+zh:
+  main:
+    - title: "Download AIRSS v0.9.1"
+      url: http://bit.ly/2KtvEWU
+  
+  docs:
+    - title: Getting Started
+      children:
+        - title: "About AIRSS"
+          url: /    
+        - title: "Installation"
+          url: /installation/
+        - title: "Examples"
+          url: /examples/
+    - title: Technical Details
+      children:
+        - title: "AIRSS Utilities"
+          url: /airss-utilities/
+        - title: "External Utilities"
+          url: /external-utilities/
+        - title: "Buildcell Glossary"
+          url: /buildcell-glossary/
+    - title: External Links
+      children:
+        - title: "Materials Theory Group"
+          url: https://www.mtg.msm.cam.ac.uk/
+  
