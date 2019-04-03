@@ -12,14 +12,14 @@ en:
           url: /installation/
         - title: "Examples"
           url: /examples/
-    - title: Technical Details
+    - title: Technical
       children:
         - title: "AIRSS Utilities"
           url: /airss-utilities/
         - title: "External Utilities"
           url: /external-utilities/
-        - title: "Buildcell Glossary"
-          url: /buildcell-glossary/
+        - title: "Buildcell"
+          url: /buildcell/
     - title: External Links
       children:
         - title: "Materials Theory Group"
@@ -46,7 +46,7 @@ zh:
         - title: "汉字"
           url: /zh/external-utilities/
         - title: "汉字"
-          url: /zh/buildcell-glossary/
+          url: /zh/buildcell/
     - title: 汉字
       children:
         - title: "Materials Theory Group"
