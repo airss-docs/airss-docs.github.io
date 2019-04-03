@@ -24,7 +24,6 @@ $base0f: #FFFFFF;
 $background-color: #fff;
 $link-color: #063E72 ;
 $footer-background-color: #063E72;
-$active-color: #063E72 ;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -48,4 +47,8 @@ div.highlighter-rouge,
 figure.highlight {
   font-size: $type-size-8;
   line-height: 1.8;
+}
+
+.active {
+ color: #063E72 ;
 }
