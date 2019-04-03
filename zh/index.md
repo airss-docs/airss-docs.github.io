@@ -1,5 +1,5 @@
 ---
-title: "About AIRSS [ZH]"
+title: "About AIRSS"
 layout: single
 classes: wide
 lang: zh
