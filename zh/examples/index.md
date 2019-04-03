@@ -1,5 +1,5 @@
 ---
-title: "AIRSS Examples"
+title: "Examples"
 layout: single
 classes: wide
 lang: zh
