@@ -3,7 +3,7 @@ title: "External Utilities"
 layout: single
 classes: wide
 lang: en
-lang-ref: buildcell-manual
+lang-ref: external-utilities
 sidebar:
   nav: "docs"
 ---
