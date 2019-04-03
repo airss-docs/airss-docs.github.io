@@ -4,7 +4,7 @@
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <ul class="visible-links">
-          {%- for link in site.data.navigation[page.lang]main -%}
+          {%- for link in site.data.navigation[page.lang].main -%}
             {%- if link.url contains '://' -%}
               {%- assign url = link.url -%}
             {%- else -%}
