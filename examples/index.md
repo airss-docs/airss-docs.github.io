@@ -2,6 +2,8 @@
 title: "AIRSS Examples"
 layout: single
 classes: wide
+lang: en
+lang-ref: about-airss
 sidebar:
   nav: "docs"
 ---
