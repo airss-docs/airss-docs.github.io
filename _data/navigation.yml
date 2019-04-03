@@ -18,8 +18,8 @@ en:
           url: /airss-utilities/
         - title: "External Utilities"
           url: /external-utilities/
-        - title: "Buildcell"
-          url: /buildcell/
+        - title: "Buildcell Manual"
+          url: /buildcell-manual/
     - title: External Links
       children:
         - title: "Materials Theory Group"
@@ -46,7 +46,7 @@ zh:
         - title: "汉字"
           url: /zh/external-utilities/
         - title: "汉字"
-          url: /zh/buildcell/
+          url: /zh/buildcell-manual/
     - title: 汉字
       children:
         - title: "Materials Theory Group"
