@@ -2,6 +2,8 @@
 title: "AIRSS Examples"
 layout: single
 classes: wide
+lang: zh
+lang-ref: examples
 sidebar:
   nav: "docs"
 ---
