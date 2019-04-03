@@ -53,7 +53,7 @@
         <span class="nav__sub-title">Language</span>
           <ul>
           {% for post in posts %}
-            {% if post.url == page.url %}
+            {% if post.lang == page.lang %}
               {% assign active = "active" %}
             {% else %}
               {% assign active = "" %}
