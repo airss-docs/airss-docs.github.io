@@ -2,6 +2,8 @@
 title: "AIRSS Utilities"
 layout: single
 classes: wide
+lang: en
+lang-ref: buildcell-manual
 sidebar:
   nav: "docs"
 ---
