@@ -1,5 +1,5 @@
 ---
-title: "AIRSS Buildcell Guide"
+title: "Buildcell Manual"
 layout: single
 classes: wide
 lang: zh
