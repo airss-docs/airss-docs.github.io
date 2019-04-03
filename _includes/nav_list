@@ -54,7 +54,7 @@
           <ul>
           {% for post in posts %}
           <li>
-            <a href="{{ site.base-url }}{{ post.url }}" />{{post.lang}}</a>
+            <a href="{{ site.base-url }}{{ post.url }}" />{{ site.data.languages[post.lang].label }}</a>
           </li>
           {% endfor %}
           </ul>
