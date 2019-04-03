@@ -2,6 +2,8 @@
 title: "AIRSS Utilities"
 layout: single
 classes: wide
+lang: zh
+lang-ref: airss-utilities
 sidebar:
   nav: "docs"
 ---
