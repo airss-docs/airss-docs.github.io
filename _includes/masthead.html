@@ -4,7 +4,7 @@
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% endif %}
 
-{% assign main = site.data.navigation[page.lang].main %}
+{% assign navmain = site.data.navigation[page.lang].main %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -15,7 +15,7 @@
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
         <ul class="visible-links">
-          {%- for link in main -%}
+          {%- for link in navmain -%}
             {%- if link.url contains '://' -%}
               {%- assign url = link.url -%}
             {%- else -%}
