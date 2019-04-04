@@ -1,7 +1,5 @@
 en:
   main:
-    - title: Download AIRSS v0.9.1
-      url: http://bit.ly/2KtvEWU
   
   docs:
     - title: Getting Started
@@ -24,12 +22,12 @@ en:
       children:
         - title: Materials Theory Group
           url: https://www.mtg.msm.cam.ac.uk/
+        - title: Download AIRSS v0.9.1
+          url: http://bit.ly/2KtvEWU
           
 zh:
   main:
-    - title: 下载AIRSS v0.9.1
-      url: http://bit.ly/2KtvEWU
-  
+
   docs:
     - title: 入门简介
       children:
@@ -51,3 +49,5 @@ zh:
       children:
         - title: "Materials Theory Group"
           url: https://www.mtg.msm.cam.ac.uk/
+        - title: 下载AIRSS v0.9.1
+          url: http://bit.ly/2KtvEWU
