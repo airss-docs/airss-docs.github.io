@@ -1,4 +1,4 @@
-{% assign main = site.data.navigation[page.lang][include.main] %}
+{% assign main = site.data.navigation[post.lang].main %}
 
 {% if site.logo contains "://" %}
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
