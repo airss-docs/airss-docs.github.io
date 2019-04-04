@@ -1,54 +1,53 @@
 en:
   main:
-    - title: "Download AIRSS v0.9.1"
+    - title: Download AIRSS v0.9.1
       url: http://bit.ly/2KtvEWU
   
   docs:
-    - title: "Getting Started"
+    - title: Getting Started
       children:
-        - title: "About AIRSS"
+        - title: About AIRSS
           url: /    
-        - title: "Installation"
+        - title: Installation
           url: /installation/
-        - title: "Examples"
+        - title: Examples
           url: /examples/
-    - title: "Technical"
+    - title: Technical
       children:
-        - title: "AIRSS Utilities"
+        - title: AIRSS Utilities
           url: /airss-utilities/
-        - title: "External Utilities"
+        - title: External Utilities
           url: /external-utilities/
-        - title: "Buildcell Manual"
+        - title: Buildcell Manual
           url: /buildcell-manual/
-    - title: "External Links"
+    - title: External Links
       children:
-        - title: "Materials Theory Group"
+        - title: Materials Theory Group
           url: https://www.mtg.msm.cam.ac.uk/
           
 zh:
   main:
-    - title: "下载AIRSS v0.9.1"
+    - title: 下载AIRSS v0.9.1
       url: http://bit.ly/2KtvEWU
   
   docs:
-    - title: "入门简介"
+    - title: 入门简介
       children:
-        - title: "关于AIRSS"
+        - title: 关于AIRSS
           url: /zh/   
-        - title: "安装方法"
+        - title: 安装方法
           url: /zh/installation/
-        - title: "样例"
+        - title: 样例
           url: /zh/examples/
     - title: 技术细节
       children:
-        - title: "AIRSS模块"
+        - title: AIRSS模块
           url: /zh/airss-utilities/
-        - title: "外部模块"
+        - title: 外部模块
           url: /zh/external-utilities/
-        - title: "Buildcell使用手册"
+        - title: Buildcell使用手册
           url: /zh/buildcell-manual/
-    - title: "链接"
+    - title: 链接
       children:
         - title: "Materials Theory Group"
           url: https://www.mtg.msm.cam.ac.uk/
-  
