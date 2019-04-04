@@ -4,7 +4,7 @@ en:
       url: http://bit.ly/2KtvEWU
   
   docs:
-    - title: Getting Started
+    - title: "Getting Started"
       children:
         - title: "About AIRSS"
           url: /    
@@ -12,7 +12,7 @@ en:
           url: /installation/
         - title: "Examples"
           url: /examples/
-    - title: Technical
+    - title: "Technical"
       children:
         - title: "AIRSS Utilities"
           url: /airss-utilities/
@@ -20,7 +20,7 @@ en:
           url: /external-utilities/
         - title: "Buildcell Manual"
           url: /buildcell-manual/
-    - title: External Links
+    - title: "External Links"
       children:
         - title: "Materials Theory Group"
           url: https://www.mtg.msm.cam.ac.uk/
@@ -31,7 +31,7 @@ zh:
       url: http://bit.ly/2KtvEWU
   
   docs:
-    - title: 入门简介
+    - title: "入门简介"
       children:
         - title: "关于AIRSS"
           url: /zh/   
@@ -47,7 +47,7 @@ zh:
           url: /zh/external-utilities/
         - title: "Buildcell使用手册"
           url: /zh/buildcell-manual/
-    - title: 链接
+    - title: "链接"
       children:
         - title: "Materials Theory Group"
           url: https://www.mtg.msm.cam.ac.uk/
