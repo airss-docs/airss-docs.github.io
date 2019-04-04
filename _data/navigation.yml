@@ -27,27 +27,27 @@ en:
           
 zh:
   main:
-    - title: "Download AIRSS v0.9.1"
+    - title: "下载AIRSS v0.9.1"
       url: http://bit.ly/2KtvEWU
   
   docs:
-    - title: 汉字
+    - title: 入门简介
       children:
-        - title: "汉字"
+        - title: "关于AIRSS"
           url: /zh/   
-        - title: "汉字"
+        - title: "安装方法"
           url: /zh/installation/
-        - title: "汉字"
+        - title: "样例"
           url: /zh/examples/
-    - title: 汉字
+    - title: 技术细节
       children:
-        - title: "汉字"
+        - title: "AIRSS模块"
           url: /zh/airss-utilities/
-        - title: "汉字"
+        - title: "外部模块"
           url: /zh/external-utilities/
-        - title: "汉字"
+        - title: "Buildcell使用手册"
           url: /zh/buildcell-manual/
-    - title: 汉字
+    - title: 链接
       children:
         - title: "Materials Theory Group"
           url: https://www.mtg.msm.cam.ac.uk/
