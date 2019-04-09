@@ -1144,67 +1144,6 @@ Number of compositions :      1
 
 This time the γ-B structure was located three times out of 187 attempts.
 
-## Example 2.05
-
-In this example, we will search for the formation of an iron–bismuth binary intermetallic at elevated pressure. Under ambient pressure, there are no stable compounds in the Fe–Bi system. We will first find the high-pressure polymorphs of the elements. The `fe.cell` file is set up as follows:
-
-```console
-[jpw547@quser12 bafe2bi2]$ cat fe.cell
-#VARVOL=12
-#SPECIES=Fe
-#NATOM=2-4
-#MINSEP=2.5
-#FOCUS=1
-#SYMMOPS=2-4
-[jpw547@quser12 bafe2bi2]$ airss.pl -build -max 20 -seed fe
-```
-
-Delete the stuff in `XXXXX-XXXX.cell`.
-
-```console
-[jpw547@quser12 bafe2bi2]$ press 0 1 11 fe-XXXXX-XXXX
-[jpw547@quser12 bafe2bi2]$ cat batch-script.sh
-#!/bin/bash
-#MSUB -A p30617
-#MSUB -q short
-#MSUB -l walltime=4:00:00
-#MSUB -j oe
-#MSUB -N crud
-#MSUB -l procs=8
-#MSUB -t crud[1-64]
-#PBS -V MOAB_JOBARRAYINDEX
-
-# Leave a blank line, like above, before you start your other commands
-
-# with #MSUB, a # doesn't indicate a comment;
-# it's part of the MSUB specification (and first line).
-# In the rest of the script, # starts a comment
-
-# add a project directory to your PATH (if needed)
-export PATH=/projects/p30617/airss-0.9.1/bin:$PATH
-
-# load modules you need to use: these are just examples
-module load intel/2016.0
-module load mpi/openmpi-3.0.0-intel2016.0
-
-# Set your working directory
-# This sets it to the directory you're submitting from -- change as appropriate
-cd $PBS_O_WORKDIR
-
-# After you change directories with the command above, all files below
-# are then referenced with respect to that directory
-
-# A command you actually want to execute (example):
-crud.pl -mpinp 8 -keep
-[jpw547@quser12 bafe2bi2]$ msub batch-script.sh
-
-Moab.6225024
-[jpw547@quser12 bafe2bi2]$
-
-```
-
-
-
 ## Example 3.01
 
 This example is a repeat of Example 2.1 using `-gulp` and a Tersoff potential.
