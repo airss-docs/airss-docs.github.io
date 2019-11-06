@@ -15,7 +15,7 @@ en:
     - title: How-To Guides
       children:
         - title: High-Pressure Structure Search
-        - url: /how-to/
+          url: /how-to/
     - title: Technical Reference
       children:
         - title: AIRSS Utilities
