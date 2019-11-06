@@ -19,6 +19,9 @@ paginate: 5
 paginate_path: /page:num/
 timezone: 
 highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-remote-theme
