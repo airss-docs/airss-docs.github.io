@@ -18,11 +18,6 @@ permalink: /:categories/:title/
 paginate: 5 
 paginate_path: /page:num/
 timezone: 
-highlighter: rouge
-  
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
 
 plugins:
   - jekyll-remote-theme
