@@ -28,7 +28,7 @@ $footer-background-color: #063E72;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "highlight";
+@import "native";
 
 .site-logo img {
   height: 2rem;
