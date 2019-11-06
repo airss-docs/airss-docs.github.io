@@ -1148,7 +1148,7 @@ This time the γ-B structure was located three times out of 187 attempts.
 
 This example is a repeat of Example 2.1 using `-gulp` and a Tersoff potential.
 
-````console
+````bash
 $ airss.pl -gulp -press 100 -max 10 -seed C2
 
 $ ca -r
@@ -1171,7 +1171,7 @@ In this example `-gulp` and a Tersoff potential are used to relax structures gen
 Random 'sensible' structures with 8 carbon atoms are constructed, such that each atom is four-fold coordinated, and
 the minimum bond angle encountered is 91°. This choice excludes the generation of structures with 4-fold rings.
 
-````console
+````bash
 $ cat C.cell
 
 #TARGVOL=5.6
@@ -1190,7 +1190,7 @@ $ cat C.cell
 
 Run the `airss.pl` using `-gulp`. Similar structures are unified on-the-fly.
 
-````console
+````bash
 $ airss.pl -gulp -max 100 -sim 0.1 -seed C
 $ ca -r
 
@@ -1228,7 +1228,7 @@ C-17050-333-11           0.00     5.555       1.326   8 C            C2         
 
 Now we use the cryan script (through the `ca` wrapper) to extract all the 2D structures in the set. To determine the dimensionality, a contact distance of 2 Å is chosen. The adjacency matrix generated using this contact distance is analysed, and the layered structures are highlighted.
 
-````console
+````bash
 $ ca -bl 2 -d 2 -r
 
 C-17050-333-49           0.00     5.959      -7.154   8 C            P1         1    3 2.00
@@ -1244,7 +1244,7 @@ C-17050-333-24           0.00     6.087       0.725   8 C            P1         
 
 In this example we use coordination constraints to rapidly locate the icosahedral C₂₀ fullerene.
 
-````console
+````bash
 $ cat C.cell
 
 %BLOCK LATTICE_CART
@@ -1277,7 +1277,7 @@ In the above, 20 carbon atoms are initially randomly placed in a sphere of radiu
 They are subsequently confined in a sphere of radius 2.1 Å, such that the minimum separation is 1.44 Å, and
 all the atoms are connected to three others, with a minimum bond angle of 91° (so as to exclude 4-fold rings).
 
-````console
+````bash
 $ airss.pl -gulp -max 10 -cluster -seed C
 $ ca -r
 
@@ -1297,7 +1297,7 @@ C-68766-2151-9           0.00   400.000       0.109  20 C            Cs         
 
 In this example we perform a symmetry unconstrained search for SiO₂ polymorphs using the Vashishta potential.
 
-````console
+````bash
 $ cat SiO2.cell
 
 #VARVOL=35
@@ -1307,7 +1307,7 @@ $ cat SiO2.cell
 #COMPACT
 ````
 
-````console
+````bash
 $ airss.pl -gulp -max 100 -seed SiO2
 $ ca -u 0.1 -r -t 10
 
@@ -1327,7 +1327,7 @@ SiO2-78871-6919-89       0.00    43.827       0.493   2 SiO2         R32        
 
 In this example we will perform a search for 2D silica structures using `-gulp` and the Vashishta potential. First take a look at the input file for `buildcell`:
 
-````console
+````bash
 $ cat SiO2.cell
 
 %BLOCK LATTICE_CART
@@ -1379,7 +1379,7 @@ Visualise your results. The lower energy structures that you find should be some
 
 In this example we search for small SiO₂ clusters using a Vashishta potential.
 
-````console
+````bash
 $ cat SiO2.cell
 
 %BLOCK LATTICE_CART
@@ -1400,13 +1400,13 @@ $ cat SiO2.cell
 
 A random cluster of 4 × SiO₂ is built, subject to the specified minimum distances, and confined within an ellipsoid of volume 4/3 × π × r³, where r = 2.5 Å. The second number, 0.75 in this case, describes how spherical the ellipsoids will be on average. A value of 0.0 enforces sphericity.
 
-````console
+````bash
 $ airss.pl -gulp -cluster -max 10 -seed SiO2
 ````
 
 The `-cluster` setting enforces a constant volume optimisation, and the point group analysis of the resulting structures.
 
-````console
+````bash
 $ ca -r
 
 SiO2-33704-5555-6        0.00  2000.000     -28.907   4 SiO2         Cs         1
@@ -1425,7 +1425,7 @@ SiO2-33704-5555-1        0.00  2000.000      11.250   4 SiO2         C1         
 
 In this example we search for well packed methane (CH₄) molecular crystals. The Tersoff potential is used to determine the interatomic interactions, and it is expected to provide only a coarse approximation.
 
-````console
+````bash
 $ cat CH4.cell
 
 #TARGVOL=7.69
@@ -1448,13 +1448,13 @@ $ cat CH4.cell
 
 Using this input file, `buildcell` will attempt to construct a random unit cell, choosing a space group randomly with four symmetry operators from the top 20 most common space groups for molecular crystals. The CH₄ tetrahedral unit (or molecule) is specified in absolute coordinates. All atoms are labelled in the same way (`1-Td`) to tie the atoms together into a unit. The miniumum distance constraints are first applied by shifting the molecules, using a `SLACK` parameter of 0.25 (the `MINSEP` distances are multiplied by 0.75). Once these relaxed constraints are satisfied, an optimisation using hard sphere potentials for the specified `MINSEP` distances is applied, and rotations of the unit are permitted. A final `OVERLAP` of 1 is tolerated. This may be reduced to 0.1 or lower, at a greater computational cost.
 
-````console
+````bash
 $ airss.pl -gulp -press 1 -max 10 -seed CH4
 ````
 
 A pressure of 1 GPa is applied to favour well-packed solutions.
 
-````console
+````bash
 $ ca -r
 
 CH4-32238-381-10         1.00     8.111     -20.738   4 CH4          P212121    1
@@ -1475,7 +1475,7 @@ The ten samples above are not exhaustive. A low energy solution is known to be c
 
 In this example we will explore the energy landscape of Carbon at 100 GPa (or 1 MBar). For comparison, the pressure at the centre of the Earth is about 350 GPa.
 
-````console
+````bash
 $ cat C2.cell
 
 %BLOCK LATTICE_CART
@@ -1498,13 +1498,13 @@ The only AIRSS related command in the cell file is `#MINSEP=1.3`. This is not es
 
 The search is a repeat of that performed in Example 2.1, except this time the search will be performed using the VASP code. First create a `C2.POTCAR` file. The `airss.pl` script is used in the usual way, except the `-vasp` flag it set.
 
-````console
+````bash
 $ airss.pl -vasp -press 100 -max 20 -seed C2
 ````
 
 The results of the search can be ranked using the "ca" wrapper to the cryan code.
 
-````console
+````bash
 $ ca -r
 
 C2-13385-9319-6        100.00     4.545      -6.999   2 C            Fd-3m      1
