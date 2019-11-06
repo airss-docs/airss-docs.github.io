@@ -12,8 +12,7 @@ logo: "/assets/images/airss-logo.svg"
 masthead_title: "&nbsp;"
 
 markdown: kramdown
-remote_theme: jekyll-theme-primer
-# remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
 # remote_theme: mmistakes/minimal-mistakes@gh-pages-3.1.6
 permalink: /:categories/:title/
 paginate: 5 
