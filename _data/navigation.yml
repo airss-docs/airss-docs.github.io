@@ -9,10 +9,13 @@ en:
         - title: Installation
           url: /installation/
     - title: Tutorials
+      children:
         - title: Examples
           url: /examples/
     - title: How-To Guides
+      children:
         - title: High-Pressure Structure Search
+        - url: /how-to/
     - title: Technical Reference
       children:
         - title: AIRSS Utilities
