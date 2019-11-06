@@ -14,7 +14,7 @@ Introduction to the examples. Lorem ipsum dolor sit amet, consectetur adipiscing
 
 In this example we will use random searching to find the ground state of a Lennard–Jones solid.
 
-```console
+```bash
 $ ls
 
 Al.cell	Al.pp	README
