@@ -8,9 +8,12 @@ en:
           url: /    
         - title: Installation
           url: /installation/
+    - title: Tutorials
         - title: Examples
           url: /examples/
-    - title: Technical
+    - title: How-To Guides
+        - title: High-Pressure Structure Search
+    - title: Technical Reference
       children:
         - title: AIRSS Utilities
           url: /airss-utilities/
