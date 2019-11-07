@@ -15,7 +15,7 @@ en:
     - title: How-To Guides
       children:
         - title: ‣ How to set up high-pressure binary structure searches with AIRSS+CASTEP
-          url: /how-to-guides/high-pressure-binary-searches
+          url: /how-to-guides/high-pressure-binary-searches/
     - title: Technical Reference
       children:
         - title: AIRSS Utilities
