@@ -4,6 +4,7 @@ layout: single
 classes: wide
 lang: en
 lang-ref: airss-utilities
+permalink: airss-utilities
 sidebar:
   nav: "docs"
 ---
