@@ -1,5 +1,5 @@
 ---
-title: "How to set up high-pressure binary structure searches with AIRSS+CASTEP"
+title: "How to set up high-pressure binary structure searches"
 layout: single
 classes: wide
 lang: en
