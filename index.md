@@ -6,6 +6,7 @@ lang: en
 lang-ref: about-airss
 sidebar:
   nav: "docs"
+permalink: /
 ---
 
 About AIRSS
@@ -42,6 +43,9 @@ References
 [5]: https://doi.org/10.1038/nmat2261
 [6]: https://doi.org/10.1103/PhysRevB.78.184102
 [7]: https://doi.org/10.1103/PhysRevB.90.035424
+
+Installation
+============
 
 Extract `airss-x.x.x.tgz` and then navigate into the `airss-x.x.x/` directory:
 
