@@ -7,23 +7,23 @@ en:
         - title: About AIRSS
           url: /    
         - title: Installation
-          url: /installation/
+          url: /getting-started/installation/
     - title: Tutorials
       children:
         - title: Examples
-          url: /examples/
+          url: /tutorials/examples/
     - title: How-To Guides
       children:
         - title: High-Pressure Structure Search
-          url: /how-to/
+          url: /how-to-guides/high-pressure-search
     - title: Technical Reference
       children:
         - title: AIRSS Utilities
-          url: /airss-utilities/
+          url: /technical-reference/airss-utilities/
         - title: External Utilities
-          url: /external-utilities/
+          url: /technical-reference/external-utilities/
         - title: Buildcell Manual
-          url: /buildcell-manual/
+          url: /technical-reference/buildcell-manual/
     - title: External Links
       children:
         - title: Materials Theory Group
