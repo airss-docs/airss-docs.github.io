@@ -43,4 +43,4 @@ The output will tell you whether the essential, recommended, and optional compon
 utilities. Other compiler families (such as `ifort`) are not supported.
 
 Troubleshooting
-===============
+---------------
