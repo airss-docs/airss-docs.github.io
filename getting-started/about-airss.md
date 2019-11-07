@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "About AIRSS"
 layout: single
 classes: wide
 lang: en
@@ -8,9 +8,6 @@ sidebar:
   nav: "docs"
 permalink: /
 ---
-
-About AIRSS
-===========
 
 Ab initio random structure searching (AIRSS) is a very simple, yet powerful and highly parallel, approach to structure prediction. The concept was introduced in 2006 [[1]] and its philosophy more extensively discussed in 2011 [[2]].
 
@@ -43,43 +40,3 @@ References
 [5]: https://doi.org/10.1038/nmat2261
 [6]: https://doi.org/10.1103/PhysRevB.78.184102
 [7]: https://doi.org/10.1103/PhysRevB.90.035424
-
-Installation
-============
-
-Extract `airss-x.x.x.tgz` and then navigate into the `airss-x.x.x/` directory:
-
-```console
-$ tar -xvf airss-0.9.1.tgz
-
-./._airss-0.9.1
-airss-0.9.1/
-airss-0.9.1/._bin
-airss-0.9.1/bin/
-...
-airss-0.9.1/bin/castep2res
-airss-0.9.1/bin/._crud.pl
-airss-0.9.1/bin/crud.pl
-
-$ cd airss-0.9.1
-```
-
-Execute the following compound command to perform a default installation:
-
-```console
-$ make ; make install ; make neat
-```
-
-The executables will be placed in `airss-0.9.1/bin`, which you should add to your path. To verify that the installation ran as expected, run the following command:
-
-```console
-$ make check
-```
-
-The output will tell you whether the essential, recommended, and optional components are installed and accessible. It will also attempt to run a select number of calculations from the examples.
-
-> **Note:** It is strongly recommended that `gcc` and `gfortran` version 5 and above are used to build the AIRSS
-utilities. Other compiler families (such as `ifort`) are not supported.
-
-Troubleshooting
----------------
