@@ -8,6 +8,8 @@ en:
           url: /    
         - title: Installation
           url: /getting-started/installation/
+        - title: Trying AIRSS Online
+          url: /getting-started/trying-airss-online/
     - title: Tutorials
       children:
         - title: Examples
