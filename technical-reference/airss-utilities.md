@@ -20,6 +20,11 @@ buildcell
 
 This Fortan code reads annotated Castep `.cell` files, and generates random "sensible" structures from them. The type of randomness introduced can be controlled through hash-tagged directives (which are treated as comments and ignored by Castep).
 
+ca
+--
+
+A convenient bash wrapper for the `cryan` tool. Uses the same command line options as cryan.
+
 cabal
 -----
 
@@ -46,11 +51,6 @@ $ cabal cell cell < input.cell > output.cell
 ```
 
 See also: `cif2res` in the [External Utilities](../external-utilities) page.
-
-ca
---
-
-A convenient bash wrapper for the `cryan` tool. Uses the same command line options as cryan.
 
 conv
 ----
