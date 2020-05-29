@@ -25,14 +25,10 @@ This page walks through a series of examples that demonstrate the versatility of
 - [**1.11**](#example-111): Lennard–Jones binary defect calculation
 - [**1.12**](#example-112): Lennard–Jones binary nanowire in a nanotube
 - [**1.13**](#example-113): Lennard–Jones binary interface
-
-
 - [**2.01**](#example-201): CASTEP free search for 2 atoms of carbon at 100 GPa
 - [**2.02**](#example-202): CASTEP free search for 8 atoms of hydrogen at 100 GPa, followed by molecular units
 - [**2.03**](#example-203): CASTEP fixed cell search for γ-B28
 - [**2.04**](#example-204): CASTEP fixed cell search for γ-B28 with units
-
-
 - [**3.01**](#example-301): GULP free search for 2 atoms of carbon at 100 GPa, using a Tersoff potential
 - [**3.02**](#example-302): GULP coordination constrained search, 8 atoms of carbon, using a Tersoff potential
 - [**3.03**](#example-303): GULP coordination constrained cluster search, 20 atoms of carbon, using a Tersoff potential
@@ -40,8 +36,6 @@ This page walks through a series of examples that demonstrate the versatility of
 - [**3.05**](#example-305): GULP symmetry unconstrained search for layered SiO₂ structures, using a Vashishta potential
 - [**3.06**](#example-306): GULP symmetry unconstrained search for small SiO₂ clusters, using a Vashishta potential
 - [**3.07**](#example-307): GULP symmetry constrained search for CH₄ molecular crystals, using a Tersoff potential
-
-
 - [**4.01**](#example-401): VASP free search for 2 atoms of carbon at 100 GPa
 
 ## Example 1.01
