@@ -38,7 +38,7 @@ supports castep+,cell,shx,res,gulp*,cif*,psi4*,xtl,xyz(e)
 *output only +input only
 ```
 
-The following converts a castep cell file to a SHELX `.res` (results) file.
+The following converts a Castep cell file to a SHELX `.res` (results) file.
 
 ```console
 $ cabal cell res < input.cell > output.res
