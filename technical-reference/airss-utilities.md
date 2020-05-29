@@ -45,7 +45,7 @@ The following performs a Niggli reduction on a `.cell` file.
 $ cabal cell cell < input.cell > output.cell
 ```
 
-See also: `cif2res` in the [External Utilities](external-utilities) page.
+See also: `cif2res` in the [External Utilities](../external-utilities) page.
 
 ca
 --
