@@ -104,7 +104,7 @@ The next block of commands can also be tweaked:
 
 Uncomment the `#ADGEN`, `#SLACK`, and `#OVERLAP` commands (see the Buildcell Manual for details of these commands).
 
-Next, set the pseudopotentials to use `QC5`:
+Next, set the pseudopotentials to use `QC5`, which is a good balance between accuracy and speed for most searches:
 
 ```
 %BLOCK SPECIES_POT
@@ -112,49 +112,26 @@ QC5
 %ENDBLOCK SPECIES_POT
 ```
 
-In `FeBi2.param`, set the cutoff energy to 480 eV.
+In `FeBi.param`, we can either set the cut-off energy manually, as recommended by `gencell`, or we can replace the `cut_off_energy :` line with:
 
-```console
-cut_off_energy       : 480 eV
+```
+basis_precision : precise
 ```
 
-Run `airss.pl`, requesting an external pressure of 35 GPa. An example batch job request might be:
+Run `airss.pl`, requesting an external pressure of 35 GPa. An example batch job request in LSF might be:
 
 ```console
 #!/bin/bash
 
 #BSUB -W 96:0
-#BSUB -R rusage[mem=8192]
-#BSUB -n 16
-#BSUB -J "FeBi2[1-8]"
+#BSUB -R rusage[mem=2048]
+#BSUB -n 4
+#BSUB -J "FeBi2[1-16]"
 #BSUB -o logs/out.%J.%I
 #BSUB -e logs/err.%J.%I
 
-airss.pl -keep -max 500 -press 35 -seed FeBi2
+airss.pl -keep -max 500 -press 35 -seed FeBi
 ```
 
-Take a look at the results:
-
-```console
-$ ca -u 0.05 -r
-
-FeBi2-343624-3874-12    35.04    53.848   -5103.102   1 Bi2Fe        I4/mmm     3
-FeBi2-65003-3378-9      35.00    55.250       0.372   1 Bi2Fe        Cmmm       1
-FeBi2-65003-3378-1      35.04    55.402       0.507   1 Bi2Fe        P-3m1      1
-FeBi2-17892-7013-1      34.98    55.487       0.567   1 Bi2Fe        R3m        1
-FeBi2-65003-3378-4      35.00    56.679       0.778   1 Bi2Fe        R-3m       1
-FeBi2-65003-3378-11     34.99    56.670       0.779   1 Bi2Fe        Immm       2
-FeBi2-343624-3874-6     35.04    56.688       0.779   1 Bi2Fe        R-3m       4
-FeBi2-38675-679-7       35.06    56.700       0.780   1 Bi2Fe        Fm-3m      1
-FeBi2-17892-7013-2      34.97    57.134       0.952   1 Bi2Fe        P4/mmm     1
-FeBi2-65003-3378-10     35.00    55.436       1.551   1 Bi2Fe        P-6m2      2
-FeBi2-343624-3874-14    35.01    58.184       1.630   1 Bi2Fe        Pmmm       1
-FeBi2-343624-3874-5     35.01    57.257       1.681   1 Bi2Fe        P4/mmm     1
-FeBi2-65003-3378-3      35.03    57.539       2.089   1 Bi2Fe        P3m1       3
-FeBi2-343624-3874-1     35.02    58.500       3.086   1 Bi2Fe        P6/mmm     1
-FeBi2-65003-3378-2      34.94    65.838       3.793   1 Bi2Fe        P-6m2      1
-```
-
-The top hit is the `I4/mmm` structure that is very close to the `I4/mcm` structure discovered experimentally above 30 GPa.
 
 ![](../assets/images/high-pressure-binary-search-1.png)
