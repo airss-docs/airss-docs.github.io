@@ -152,7 +152,7 @@ The following table lists all of the current directives that will be interpreted
 **SURFACE**       |
 **SYMM**          |
 **SYMMNO**        |
-**SYMMOPS**       |
+**SYMMOPS**       | Build structures having a specified number of symmetry operations. For crystals, the allowed values are (1,2,3,4,6,8,12,16,24,48). For clusters (indicated with #CLUSTER), the allowed values are (1,2,3,5,4,6,7,8,9,10,11,12,24). Ranges are allowed (e.g., #SYMMOPS=1-4).
 **SYMMORPHIC**    |
 **SYSTEM**        | Enforce a crystal system. Allowed values are {Rhom,Tric,Mono,Cubi,Hexa,Orth,Tetra} | `none`
 **TARGVOL**       |

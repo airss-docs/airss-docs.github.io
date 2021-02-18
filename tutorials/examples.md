@@ -62,7 +62,7 @@ Al 0.0 0.0 0.0 # Al1 % NUM=8
 #MINSEP=1.5
 ```
 
-`Al.cell` is the "seed" input file which describes how the random structures should be built (by `buildcell`). In this case, 8 atoms are placed randomly into a unit cell of random shape, and a volume within 50% of 8 Å³ per atom. If a larger number of atoms were requested then the volume of the cell would be scaled appropriately. Any configurations in which atoms are closer than 1.5 Å are rejected.
+`Al.cell` is the "seed" input file which describes how the random structures should be built (by `buildcell`). In this case, 8 atoms are placed randomly into a unit cell of random shape, and a volume within 5% of 8 Å³ per atom. If a larger number of atoms were requested then the volume of the cell would be scaled appropriately. Any configurations in which atoms are closer than 1.5 Å are rejected.
 
 We now perform the search:
 
