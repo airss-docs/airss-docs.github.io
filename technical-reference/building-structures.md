@@ -1,3 +1,13 @@
+---
+title: "Building Structures"
+layout: single
+classes: wide
+lang: en
+lang-ref: buildcell-manual
+sidebar:
+  nav: "docs"
+---
+
 # How to build structures ...
 
 * [with a range of volumes](#building-structures-with-a-range-of-volumes)
