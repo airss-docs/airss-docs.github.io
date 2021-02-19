@@ -26,6 +26,8 @@ en:
           url: /technical-reference/external-utilities/
         - title: Buildcell Manual
           url: /technical-reference/buildcell-manual/
+        - title: Building Structures
+          url: /technical-reference/building-structures
     - title: External Links
       children:
         - title: Materials Theory Group
