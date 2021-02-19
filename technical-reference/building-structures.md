@@ -3,7 +3,7 @@ title: "Building Structures"
 layout: single
 classes: wide
 lang: en
-lang-ref: buildcell-manual
+lang-ref: building-structures
 sidebar:
   nav: "docs"
 ---
