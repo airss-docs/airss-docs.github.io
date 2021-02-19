@@ -149,7 +149,7 @@ The following table lists all of the current directives that will be interpreted
 **SHIFT**         |
 **SLAB**          |
 **SLACK**         |
-**SPECIES**       | Sets the species to include (e.g., `#SPECIES=H,Li`)
+**SPECIES**       | Species to include (e.g., `#SPECIES=H,Li`).
 **SPHERE**        |
 **SPIN**          |
 **SUPERCELL**     |
@@ -163,7 +163,7 @@ The following table lists all of the current directives that will be interpreted
 **THREE**         |
 **VACANCIES**     |
 **VACUUM**        |
-**VARVOL**        | Volume per atom (?) for random structures. The generated structures will have volumes within +-5% of this amount.
+**VARVOL**        | Volume per atom (?) for random structures. Generated structures will have volumes within +-5% of this amount.
 **WIDTH**         |
 **XAMP**          |
 **YAMP**          |
