@@ -8,6 +8,10 @@ sidebar:
   nav: "docs"
 ---
 
+```
+Warning: this page is in a state of flux.
+```
+
 The construction of reasonable, or _sensible_, random structures is central to AIRSS. The Fortran `buildcell` tool is provided in the AIRSS package for this purpose. It can build structures from scratch, or modify structures specified using the Castep `.cell` format. The random structures generated  are output in the Castep `.cell` format. `buildcell` reads from standard input (`stdin`), and writes to standard output (`stdout`). The output can be passed to the supplied Fortran `cabal` structure conversion tool. Additional information is reported to standard error (`stderr`).
 
 ```console
@@ -130,8 +134,8 @@ The following table lists all of the current directives that will be interpreted
 **MINAMP**        | 
 **MINBANGLE**     | Minimum bond angle in coordination constraint application | `?`
 **MINSEP**        |
-**NATOM**         |
-**NFORM**         |
+**NATOM**         | Generate structures with `NATOM` atoms. Ranges are allowed (e.g., #NATOM=5-10).
+**NFORM**         | Number of formula units.
 **NOCOMPACT**     | Force no Niggli reduction of the unit cell. | `false`
 **NOPUSH**        | 
 **OCTET**         | Checks if number of valence electrons is a multiple of eight. | `false`
@@ -145,7 +149,7 @@ The following table lists all of the current directives that will be interpreted
 **SHIFT**         |
 **SLAB**          |
 **SLACK**         |
-**SPECIES**       |
+**SPECIES**       | Sets the species to include (e.g., `#SPECIES=H,Li`)
 **SPHERE**        |
 **SPIN**          |
 **SUPERCELL**     |
@@ -155,11 +159,11 @@ The following table lists all of the current directives that will be interpreted
 **SYMMOPS**       | Build structures having a specified number of symmetry operations. For crystals, the allowed values are (1,2,3,4,6,8,12,16,24,48). For clusters (indicated with #CLUSTER), the allowed values are (1,2,3,5,4,6,7,8,9,10,11,12,24). Ranges are allowed (e.g., #SYMMOPS=1-4).
 **SYMMORPHIC**    |
 **SYSTEM**        | Enforce a crystal system. Allowed values are {Rhom,Tric,Mono,Cubi,Hexa,Orth,Tetra} | `none`
-**TARGVOL**       |
+**TARGVOL**       | Target volume per atom (?) for random structures. Ranges are allowed.
 **THREE**         |
 **VACANCIES**     |
 **VACUUM**        |
-**VARVOL**        |
+**VARVOL**        | Volume per atom (?) for random structures. The generated structures will have volumes within +-5% of this amount.
 **WIDTH**         |
 **XAMP**          |
 **YAMP**          |
